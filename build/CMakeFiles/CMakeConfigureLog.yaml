@@ -1,0 +1,1804 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeDetermineSystem.cmake:205 (message)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      The system is: Windows - 10.0.19045 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      Wersja programu MSBuild 17.7.2+d6990bcfa dla .NET Framework
+      Kompilacja rozpoczęła się 28.05.2024 19:46:47.
+      
+      Projekt "C:\\Users\\Lenovo\\tp_projekt_4\\build\\CMakeFiles\\3.29.3\\CompilerIdC\\CompilerIdC.vcxproj" w węźle 1 (domyślne elementy docelowe).
+      PrepareForBuild:
+        Tworzenie katalogu "Debug\\".
+        Tworzenie katalogu "Debug\\CompilerIdC.tlog\\".
+      InitializeBuildStatus:
+        Trwa tworzenie "Debug\\CompilerIdC.tlog\\unsuccessfulbuild", ponieważ określono "AlwaysCreate".
+        Modyfikowanie "Debug\\CompilerIdC.tlog\\unsuccessfulbuild".
+      ClCompile:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TC /FC /errorReport:queue CMakeCCompilerId.c
+        CMakeCCompilerId.c
+      Link:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdC.lib" /MACHINE:X64 Debug\\CMakeCCompilerId.obj
+        CompilerIdC.vcxproj -> C:\\Users\\Lenovo\\tp_projekt_4\\build\\CMakeFiles\\3.29.3\\CompilerIdC\\CompilerIdC.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_C_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Usuwanie pliku "Debug\\CompilerIdC.tlog\\unsuccessfulbuild".
+        Modyfikowanie "Debug\\CompilerIdC.tlog\\CompilerIdC.lastbuildstate".
+      Kompilowanie projektu "C:\\Users\\Lenovo\\tp_projekt_4\\build\\CMakeFiles\\3.29.3\\CompilerIdC\\CompilerIdC.vcxproj" wykonane (domyślne elementy docelowe).
+      
+      Kompilacja powiodła się.
+          Ostrzeżenia: 0
+          Liczba błędów: 0
+      
+      Czas, który upłynął: 00:00:00.62
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+      
+      The C compiler identification is MSVC, found in:
+        C:/Users/Lenovo/tp_projekt_4/build/CMakeFiles/3.29.3/CompilerIdC/CompilerIdC.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      Wersja programu MSBuild 17.7.2+d6990bcfa dla .NET Framework
+      Kompilacja rozpoczęła się 28.05.2024 19:46:48.
+      
+      Projekt "C:\\Users\\Lenovo\\tp_projekt_4\\build\\CMakeFiles\\3.29.3\\CompilerIdCXX\\CompilerIdCXX.vcxproj" w węźle 1 (domyślne elementy docelowe).
+      PrepareForBuild:
+        Tworzenie katalogu "Debug\\".
+        Tworzenie katalogu "Debug\\CompilerIdCXX.tlog\\".
+      InitializeBuildStatus:
+        Trwa tworzenie "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild", ponieważ określono "AlwaysCreate".
+        Modyfikowanie "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
+      ClCompile:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
+        CMakeCXXCompilerId.cpp
+      Link:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
+        CompilerIdCXX.vcxproj -> C:\\Users\\Lenovo\\tp_projekt_4\\build\\CMakeFiles\\3.29.3\\CompilerIdCXX\\CompilerIdCXX.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_CXX_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Usuwanie pliku "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
+        Modyfikowanie "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate".
+      Kompilowanie projektu "C:\\Users\\Lenovo\\tp_projekt_4\\build\\CMakeFiles\\3.29.3\\CompilerIdCXX\\CompilerIdCXX.vcxproj" wykonane (domyślne elementy docelowe).
+      
+      Kompilacja powiodła się.
+          Ostrzeżenia: 0
+          Liczba błędów: 0
+      
+      Czas, który upłynął: 00:00:00.40
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+      
+      The CXX compiler identification is MSVC, found in:
+        C:/Users/Lenovo/tp_projekt_4/build/CMakeFiles/3.29.3/CompilerIdCXX/CompilerIdCXX.exe
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:67 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "C:/Users/Lenovo/tp_projekt_4/build/CMakeFiles/CMakeScratch/TryCompile-lg3stf"
+      binary: "C:/Users/Lenovo/tp_projekt_4/build/CMakeFiles/CMakeScratch/TryCompile-lg3stf"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Lenovo/tp_projekt_4/build/CMakeFiles/CMakeScratch/TryCompile-lg3stf'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_fb9de.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Wersja programu MSBuild 17.7.2+d6990bcfa dla .NET Framework
+        Kompilacja rozpoczęła się 28.05.2024 19:46:49.
+        
+        Projekt "C:\\Users\\Lenovo\\tp_projekt_4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-lg3stf\\cmTC_fb9de.vcxproj" w węźle 1 (domyślne elementy docelowe).
+        PrepareForBuild:
+          Tworzenie katalogu "cmTC_fb9de.dir\\Debug\\".
+          Tworzenie katalogu "C:\\Users\\Lenovo\\tp_projekt_4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-lg3stf\\Debug\\".
+          Tworzenie katalogu "cmTC_fb9de.dir\\Debug\\cmTC_fb9de.tlog\\".
+        InitializeBuildStatus:
+          Trwa tworzenie "cmTC_fb9de.dir\\Debug\\cmTC_fb9de.tlog\\unsuccessfulbuild", ponieważ określono "AlwaysCreate".
+          Modyfikowanie "cmTC_fb9de.dir\\Debug\\cmTC_fb9de.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_fb9de.dir\\Debug\\\\" /Fd"cmTC_fb9de.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.29\\Modules\\CMakeCCompilerABI.c"
+          Microsoft (R) C/C++ wersja kompilatora optymalizującego 19.37.32825 dla x64
+          CMakeCCompilerABI.c
+          Copyright (C) Microsoft Corporation. Wszystkie prawa zastrzeżone.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_fb9de.dir\\Debug\\\\" /Fd"cmTC_fb9de.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.29\\Modules\\CMakeCCompilerABI.c"
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\Lenovo\\tp_projekt_4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-lg3stf\\Debug\\cmTC_fb9de.exe" /INCREMENTAL /ILK:"cmTC_fb9de.dir\\Debug\\cmTC_fb9de.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Lenovo/tp_projekt_4/build/CMakeFiles/CMakeScratch/TryCompile-lg3stf/Debug/cmTC_fb9de.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Lenovo/tp_projekt_4/build/CMakeFiles/CMakeScratch/TryCompile-lg3stf/Debug/cmTC_fb9de.lib" /MACHINE:X64  /machine:x64 cmTC_fb9de.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_fb9de.vcxproj -> C:\\Users\\Lenovo\\tp_projekt_4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-lg3stf\\Debug\\cmTC_fb9de.exe
+        FinalizeBuildStatus:
+          Usuwanie pliku "cmTC_fb9de.dir\\Debug\\cmTC_fb9de.tlog\\unsuccessfulbuild".
+          Modyfikowanie "cmTC_fb9de.dir\\Debug\\cmTC_fb9de.tlog\\cmTC_fb9de.lastbuildstate".
+        Kompilowanie projektu "C:\\Users\\Lenovo\\tp_projekt_4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-lg3stf\\cmTC_fb9de.vcxproj" wykonane (domyślne elementy docelowe).
+        
+        Kompilacja powiodła się.
+            Ostrzeżenia: 0
+            Liczba błędów: 0
+        
+        Czas, który upłynął: 00:00:00.38
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:173 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'C': C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.37.32822/bin/HostX64/x64/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:210 (cmake_determine_linker_id)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Running the C compiler's linker: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.37.32822/bin/HostX64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.37.32825.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:67 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "C:/Users/Lenovo/tp_projekt_4/build/CMakeFiles/CMakeScratch/TryCompile-8jccwu"
+      binary: "C:/Users/Lenovo/tp_projekt_4/build/CMakeFiles/CMakeScratch/TryCompile-8jccwu"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Lenovo/tp_projekt_4/build/CMakeFiles/CMakeScratch/TryCompile-8jccwu'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_eecad.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Wersja programu MSBuild 17.7.2+d6990bcfa dla .NET Framework
+        Kompilacja rozpoczęła się 28.05.2024 19:46:49.
+        
+        Projekt "C:\\Users\\Lenovo\\tp_projekt_4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8jccwu\\cmTC_eecad.vcxproj" w węźle 1 (domyślne elementy docelowe).
+        PrepareForBuild:
+          Tworzenie katalogu "cmTC_eecad.dir\\Debug\\".
+          Tworzenie katalogu "C:\\Users\\Lenovo\\tp_projekt_4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8jccwu\\Debug\\".
+          Tworzenie katalogu "cmTC_eecad.dir\\Debug\\cmTC_eecad.tlog\\".
+        InitializeBuildStatus:
+          Trwa tworzenie "cmTC_eecad.dir\\Debug\\cmTC_eecad.tlog\\unsuccessfulbuild", ponieważ określono "AlwaysCreate".
+          Modyfikowanie "cmTC_eecad.dir\\Debug\\cmTC_eecad.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_eecad.dir\\Debug\\\\" /Fd"cmTC_eecad.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.29\\Modules\\CMakeCXXCompilerABI.cpp"
+          Microsoft (R) C/C++ wersja kompilatora optymalizującego 19.37.32825 dla x64
+          Copyright (C) Microsoft Corporation. Wszystkie prawa zastrzeżone.
+          CMakeCXXCompilerABI.cpp
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_eecad.dir\\Debug\\\\" /Fd"cmTC_eecad.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.29\\Modules\\CMakeCXXCompilerABI.cpp"
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\Lenovo\\tp_projekt_4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8jccwu\\Debug\\cmTC_eecad.exe" /INCREMENTAL /ILK:"cmTC_eecad.dir\\Debug\\cmTC_eecad.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Lenovo/tp_projekt_4/build/CMakeFiles/CMakeScratch/TryCompile-8jccwu/Debug/cmTC_eecad.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Lenovo/tp_projekt_4/build/CMakeFiles/CMakeScratch/TryCompile-8jccwu/Debug/cmTC_eecad.lib" /MACHINE:X64  /machine:x64 cmTC_eecad.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_eecad.vcxproj -> C:\\Users\\Lenovo\\tp_projekt_4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8jccwu\\Debug\\cmTC_eecad.exe
+        FinalizeBuildStatus:
+          Usuwanie pliku "cmTC_eecad.dir\\Debug\\cmTC_eecad.tlog\\unsuccessfulbuild".
+          Modyfikowanie "cmTC_eecad.dir\\Debug\\cmTC_eecad.tlog\\cmTC_eecad.lastbuildstate".
+        Kompilowanie projektu "C:\\Users\\Lenovo\\tp_projekt_4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8jccwu\\cmTC_eecad.vcxproj" wykonane (domyślne elementy docelowe).
+        
+        Kompilacja powiodła się.
+            Ostrzeżenia: 0
+            Liczba błędów: 0
+        
+        Czas, który upłynął: 00:00:00.38
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:173 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'CXX': C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.37.32822/bin/HostX64/x64/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:210 (cmake_determine_linker_id)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Running the CXX compiler's linker: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.37.32822/bin/HostX64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.37.32825.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CheckFunctionExists.cmake:86 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/FindBLAS.cmake:372 (check_function_exists)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/FindBLAS.cmake:416 (check_blas_libraries)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/FindLAPACK.cmake:247 (find_package)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/FindLAPACK.cmake:283 (_lapack_find_dependency)"
+      - "matplotplusplus/source/3rd_party/CMakeLists.txt:96 (find_package)"
+    checks:
+      - "Looking for sgemm_"
+    directories:
+      source: "C:/Users/Lenovo/tp_projekt_4/build/CMakeFiles/CMakeScratch/TryCompile-mv3er0"
+      binary: "C:/Users/Lenovo/tp_projekt_4/build/CMakeFiles/CMakeScratch/TryCompile-mv3er0"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/Lenovo/tp_projekt_4/build/CPM_modules;;C:/Users/Lenovo/tp_projekt_4/matplotplusplus/cmake"
+    buildResult:
+      variable: "BLAS_WORKS"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Lenovo/tp_projekt_4/build/CMakeFiles/CMakeScratch/TryCompile-mv3er0'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_1d476.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Wersja programu MSBuild 17.7.2+d6990bcfa dla .NET Framework
+        Kompilacja rozpoczęła się 28.05.2024 19:46:51.
+        
+        Projekt "C:\\Users\\Lenovo\\tp_projekt_4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-mv3er0\\cmTC_1d476.vcxproj" w węźle 1 (domyślne elementy docelowe).
+        PrepareForBuild:
+          Tworzenie katalogu "cmTC_1d476.dir\\Debug\\".
+          Tworzenie katalogu "C:\\Users\\Lenovo\\tp_projekt_4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-mv3er0\\Debug\\".
+          Tworzenie katalogu "cmTC_1d476.dir\\Debug\\cmTC_1d476.tlog\\".
+        InitializeBuildStatus:
+          Trwa tworzenie "cmTC_1d476.dir\\Debug\\cmTC_1d476.tlog\\unsuccessfulbuild", ponieważ określono "AlwaysCreate".
+          Modyfikowanie "cmTC_1d476.dir\\Debug\\cmTC_1d476.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=sgemm_ /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_1d476.dir\\Debug\\\\" /Fd"cmTC_1d476.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\Lenovo\\tp_projekt_4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-mv3er0\\CheckFunctionExists.c"
+          Microsoft (R) C/C++ wersja kompilatora optymalizującego 19.37.32825 dla x64
+          Copyright (C) Microsoft Corporation. Wszystkie prawa zastrzeżone.
+          CheckFunctionExists.c
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=sgemm_ /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_1d476.dir\\Debug\\\\" /Fd"cmTC_1d476.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\Lenovo\\tp_projekt_4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-mv3er0\\CheckFunctionExists.c"
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\Lenovo\\tp_projekt_4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-mv3er0\\Debug\\cmTC_1d476.exe" /INCREMENTAL /ILK:"cmTC_1d476.dir\\Debug\\cmTC_1d476.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Lenovo/tp_projekt_4/build/CMakeFiles/CMakeScratch/TryCompile-mv3er0/Debug/cmTC_1d476.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Lenovo/tp_projekt_4/build/CMakeFiles/CMakeScratch/TryCompile-mv3er0/Debug/cmTC_1d476.lib" /MACHINE:X64  /machine:x64 cmTC_1d476.dir\\Debug\\CheckFunctionExists.obj
+        CheckFunctionExists.obj : error LNK2019: nierozpoznany symbol zewnętrzny sgemm_ przywołany w funkcji main [C:\\Users\\Lenovo\\tp_projekt_4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-mv3er0\\cmTC_1d476.vcxproj]
+        C:\\Users\\Lenovo\\tp_projekt_4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-mv3er0\\Debug\\cmTC_1d476.exe : fatal error LNK1120: liczba nierozpoznanych elementów zewnętrznych: 1 [C:\\Users\\Lenovo\\tp_projekt_4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-mv3er0\\cmTC_1d476.vcxproj]
+        Kompilowanie projektu "C:\\Users\\Lenovo\\tp_projekt_4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-mv3er0\\cmTC_1d476.vcxproj" wykonane (domyślne elementy docelowe) - NIEPOWODZENIE.
+        
+        Kompilacja NIE POWIODŁA SIĘ.
+        
+        "C:\\Users\\Lenovo\\tp_projekt_4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-mv3er0\\cmTC_1d476.vcxproj" (domyślny element docelowy) (1)->
+        (element docelowy Link) -> 
+          CheckFunctionExists.obj : error LNK2019: nierozpoznany symbol zewnętrzny sgemm_ przywołany w funkcji main [C:\\Users\\Lenovo\\tp_projekt_4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-mv3er0\\cmTC_1d476.vcxproj]
+          C:\\Users\\Lenovo\\tp_projekt_4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-mv3er0\\Debug\\cmTC_1d476.exe : fatal error LNK1120: liczba nierozpoznanych elementów zewnętrznych: 1 [C:\\Users\\Lenovo\\tp_projekt_4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-mv3er0\\cmTC_1d476.vcxproj]
+        
+            Ostrzeżenia: 0
+            Liczba błędów: 2
+        
+        Czas, który upłynął: 00:00:00.35
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/FindThreads.cmake:97 (CHECK_C_SOURCE_COMPILES)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/FindThreads.cmake:163 (_threads_check_libc)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/FindBLAS.cmake:468 (find_package)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/FindLAPACK.cmake:247 (find_package)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/FindLAPACK.cmake:283 (_lapack_find_dependency)"
+      - "matplotplusplus/source/3rd_party/CMakeLists.txt:96 (find_package)"
+    checks:
+      - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
+    directories:
+      source: "C:/Users/Lenovo/tp_projekt_4/build/CMakeFiles/CMakeScratch/TryCompile-jlie7s"
+      binary: "C:/Users/Lenovo/tp_projekt_4/build/CMakeFiles/CMakeScratch/TryCompile-jlie7s"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/Lenovo/tp_projekt_4/build/CPM_modules;;C:/Users/Lenovo/tp_projekt_4/matplotplusplus/cmake"
+    buildResult:
+      variable: "CMAKE_HAVE_LIBC_PTHREAD"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Lenovo/tp_projekt_4/build/CMakeFiles/CMakeScratch/TryCompile-jlie7s'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_a3d3c.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Wersja programu MSBuild 17.7.2+d6990bcfa dla .NET Framework
+        Kompilacja rozpoczęła się 28.05.2024 19:46:52.
+        
+        Projekt "C:\\Users\\Lenovo\\tp_projekt_4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-jlie7s\\cmTC_a3d3c.vcxproj" w węźle 1 (domyślne elementy docelowe).
+        PrepareForBuild:
+          Tworzenie katalogu "cmTC_a3d3c.dir\\Debug\\".
+          Tworzenie katalogu "C:\\Users\\Lenovo\\tp_projekt_4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-jlie7s\\Debug\\".
+          Tworzenie katalogu "cmTC_a3d3c.dir\\Debug\\cmTC_a3d3c.tlog\\".
+        InitializeBuildStatus:
+          Trwa tworzenie "cmTC_a3d3c.dir\\Debug\\cmTC_a3d3c.tlog\\unsuccessfulbuild", ponieważ określono "AlwaysCreate".
+          Modyfikowanie "cmTC_a3d3c.dir\\Debug\\cmTC_a3d3c.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_a3d3c.dir\\Debug\\\\" /Fd"cmTC_a3d3c.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\Lenovo\\tp_projekt_4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-jlie7s\\src.c"
+          Microsoft (R) C/C++ wersja kompilatora optymalizującego 19.37.32825 dla x64
+          src.c
+          Copyright (C) Microsoft Corporation. Wszystkie prawa zastrzeżone.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_a3d3c.dir\\Debug\\\\" /Fd"cmTC_a3d3c.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\Lenovo\\tp_projekt_4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-jlie7s\\src.c"
+        C:\\Users\\Lenovo\\tp_projekt_4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-jlie7s\\src.c(1,10): fatal  error C1083: Nie można otworzyć pliku dołącz: 'pthread.h': No such file or directory [C:\\Users\\Lenovo\\tp_projekt_4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-jlie7s\\cmTC_a3d3c.vcxproj]
+        Kompilowanie projektu "C:\\Users\\Lenovo\\tp_projekt_4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-jlie7s\\cmTC_a3d3c.vcxproj" wykonane (domyślne elementy docelowe) - NIEPOWODZENIE.
+        
+        Kompilacja NIE POWIODŁA SIĘ.
+        
+        "C:\\Users\\Lenovo\\tp_projekt_4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-jlie7s\\cmTC_a3d3c.vcxproj" (domyślny element docelowy) (1)->
+        (element docelowy ClCompile) -> 
+          C:\\Users\\Lenovo\\tp_projekt_4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-jlie7s\\src.c(1,10): fatal  error C1083: Nie można otworzyć pliku dołącz: 'pthread.h': No such file or directory [C:\\Users\\Lenovo\\tp_projekt_4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-jlie7s\\cmTC_a3d3c.vcxproj]
+        
+            Ostrzeżenia: 0
+            Liczba błędów: 1
+        
+        Czas, który upłynął: 00:00:00.26
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CheckLibraryExists.cmake:69 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/FindThreads.cmake:112 (CHECK_LIBRARY_EXISTS)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/FindThreads.cmake:175 (_threads_check_lib)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/FindBLAS.cmake:468 (find_package)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/FindLAPACK.cmake:247 (find_package)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/FindLAPACK.cmake:283 (_lapack_find_dependency)"
+      - "matplotplusplus/source/3rd_party/CMakeLists.txt:96 (find_package)"
+    checks:
+      - "Looking for pthread_create in pthreads"
+    directories:
+      source: "C:/Users/Lenovo/tp_projekt_4/build/CMakeFiles/CMakeScratch/TryCompile-6piczw"
+      binary: "C:/Users/Lenovo/tp_projekt_4/build/CMakeFiles/CMakeScratch/TryCompile-6piczw"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/Lenovo/tp_projekt_4/build/CPM_modules;;C:/Users/Lenovo/tp_projekt_4/matplotplusplus/cmake"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREADS_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Lenovo/tp_projekt_4/build/CMakeFiles/CMakeScratch/TryCompile-6piczw'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_e68af.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Wersja programu MSBuild 17.7.2+d6990bcfa dla .NET Framework
+        Kompilacja rozpoczęła się 28.05.2024 19:46:52.
+        
+        Projekt "C:\\Users\\Lenovo\\tp_projekt_4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6piczw\\cmTC_e68af.vcxproj" w węźle 1 (domyślne elementy docelowe).
+        PrepareForBuild:
+          Tworzenie katalogu "cmTC_e68af.dir\\Debug\\".
+          Tworzenie katalogu "C:\\Users\\Lenovo\\tp_projekt_4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6piczw\\Debug\\".
+          Tworzenie katalogu "cmTC_e68af.dir\\Debug\\cmTC_e68af.tlog\\".
+        InitializeBuildStatus:
+          Trwa tworzenie "cmTC_e68af.dir\\Debug\\cmTC_e68af.tlog\\unsuccessfulbuild", ponieważ określono "AlwaysCreate".
+          Modyfikowanie "cmTC_e68af.dir\\Debug\\cmTC_e68af.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_e68af.dir\\Debug\\\\" /Fd"cmTC_e68af.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\Lenovo\\tp_projekt_4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6piczw\\CheckFunctionExists.c"
+          Microsoft (R) C/C++ wersja kompilatora optymalizującego 19.37.32825 dla x64
+          Copyright (C) Microsoft Corporation. Wszystkie prawa zastrzeżone.
+          CheckFunctionExists.c
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_e68af.dir\\Debug\\\\" /Fd"cmTC_e68af.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\Lenovo\\tp_projekt_4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6piczw\\CheckFunctionExists.c"
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\Lenovo\\tp_projekt_4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6piczw\\Debug\\cmTC_e68af.exe" /INCREMENTAL /ILK:"cmTC_e68af.dir\\Debug\\cmTC_e68af.ilk" /NOLOGO pthreads.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Lenovo/tp_projekt_4/build/CMakeFiles/CMakeScratch/TryCompile-6piczw/Debug/cmTC_e68af.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Lenovo/tp_projekt_4/build/CMakeFiles/CMakeScratch/TryCompile-6piczw/Debug/cmTC_e68af.lib" /MACHINE:X64  /machine:x64 cmTC_e68af.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: nie można otworzyć pliku "pthreads.lib" [C:\\Users\\Lenovo\\tp_projekt_4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6piczw\\cmTC_e68af.vcxproj]
+        Kompilowanie projektu "C:\\Users\\Lenovo\\tp_projekt_4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6piczw\\cmTC_e68af.vcxproj" wykonane (domyślne elementy docelowe) - NIEPOWODZENIE.
+        
+        Kompilacja NIE POWIODŁA SIĘ.
+        
+        "C:\\Users\\Lenovo\\tp_projekt_4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6piczw\\cmTC_e68af.vcxproj" (domyślny element docelowy) (1)->
+        (element docelowy Link) -> 
+          LINK : fatal error LNK1104: nie można otworzyć pliku "pthreads.lib" [C:\\Users\\Lenovo\\tp_projekt_4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6piczw\\cmTC_e68af.vcxproj]
+        
+            Ostrzeżenia: 0
+            Liczba błędów: 1
+        
+        Czas, który upłynął: 00:00:00.39
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CheckLibraryExists.cmake:69 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/FindThreads.cmake:112 (CHECK_LIBRARY_EXISTS)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/FindThreads.cmake:176 (_threads_check_lib)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/FindBLAS.cmake:468 (find_package)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/FindLAPACK.cmake:247 (find_package)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/FindLAPACK.cmake:283 (_lapack_find_dependency)"
+      - "matplotplusplus/source/3rd_party/CMakeLists.txt:96 (find_package)"
+    checks:
+      - "Looking for pthread_create in pthread"
+    directories:
+      source: "C:/Users/Lenovo/tp_projekt_4/build/CMakeFiles/CMakeScratch/TryCompile-be22ep"
+      binary: "C:/Users/Lenovo/tp_projekt_4/build/CMakeFiles/CMakeScratch/TryCompile-be22ep"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/Lenovo/tp_projekt_4/build/CPM_modules;;C:/Users/Lenovo/tp_projekt_4/matplotplusplus/cmake"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREAD_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Lenovo/tp_projekt_4/build/CMakeFiles/CMakeScratch/TryCompile-be22ep'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_e7b19.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Wersja programu MSBuild 17.7.2+d6990bcfa dla .NET Framework
+        Kompilacja rozpoczęła się 28.05.2024 19:46:53.
+        
+        Projekt "C:\\Users\\Lenovo\\tp_projekt_4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-be22ep\\cmTC_e7b19.vcxproj" w węźle 1 (domyślne elementy docelowe).
+        PrepareForBuild:
+          Tworzenie katalogu "cmTC_e7b19.dir\\Debug\\".
+          Tworzenie katalogu "C:\\Users\\Lenovo\\tp_projekt_4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-be22ep\\Debug\\".
+          Tworzenie katalogu "cmTC_e7b19.dir\\Debug\\cmTC_e7b19.tlog\\".
+        InitializeBuildStatus:
+          Trwa tworzenie "cmTC_e7b19.dir\\Debug\\cmTC_e7b19.tlog\\unsuccessfulbuild", ponieważ określono "AlwaysCreate".
+          Modyfikowanie "cmTC_e7b19.dir\\Debug\\cmTC_e7b19.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_e7b19.dir\\Debug\\\\" /Fd"cmTC_e7b19.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\Lenovo\\tp_projekt_4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-be22ep\\CheckFunctionExists.c"
+          Microsoft (R) C/C++ wersja kompilatora optymalizującego 19.37.32825 dla x64
+          Copyright (C) Microsoft Corporation. Wszystkie prawa zastrzeżone.
+          CheckFunctionExists.c
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_e7b19.dir\\Debug\\\\" /Fd"cmTC_e7b19.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\Lenovo\\tp_projekt_4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-be22ep\\CheckFunctionExists.c"
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\Lenovo\\tp_projekt_4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-be22ep\\Debug\\cmTC_e7b19.exe" /INCREMENTAL /ILK:"cmTC_e7b19.dir\\Debug\\cmTC_e7b19.ilk" /NOLOGO pthread.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Lenovo/tp_projekt_4/build/CMakeFiles/CMakeScratch/TryCompile-be22ep/Debug/cmTC_e7b19.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Lenovo/tp_projekt_4/build/CMakeFiles/CMakeScratch/TryCompile-be22ep/Debug/cmTC_e7b19.lib" /MACHINE:X64  /machine:x64 cmTC_e7b19.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: nie można otworzyć pliku "pthread.lib" [C:\\Users\\Lenovo\\tp_projekt_4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-be22ep\\cmTC_e7b19.vcxproj]
+        Kompilowanie projektu "C:\\Users\\Lenovo\\tp_projekt_4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-be22ep\\cmTC_e7b19.vcxproj" wykonane (domyślne elementy docelowe) - NIEPOWODZENIE.
+        
+        Kompilacja NIE POWIODŁA SIĘ.
+        
+        "C:\\Users\\Lenovo\\tp_projekt_4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-be22ep\\cmTC_e7b19.vcxproj" (domyślny element docelowy) (1)->
+        (element docelowy Link) -> 
+          LINK : fatal error LNK1104: nie można otworzyć pliku "pthread.lib" [C:\\Users\\Lenovo\\tp_projekt_4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-be22ep\\cmTC_e7b19.vcxproj]
+        
+            Ostrzeżenia: 0
+            Liczba błędów: 1
+        
+        Czas, który upłynął: 00:00:00.28
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CheckIncludeFileCXX.cmake:89 (try_compile)"
+      - "matplotplusplus/cmake/FindFilesystem.cmake:157 (check_include_file_cxx)"
+      - "matplotplusplus/source/matplot/CMakeLists.txt:2 (find_package)"
+    checks:
+      - "Looking for C++ include filesystem"
+    directories:
+      source: "C:/Users/Lenovo/tp_projekt_4/build/CMakeFiles/CMakeScratch/TryCompile-x1jfoc"
+      binary: "C:/Users/Lenovo/tp_projekt_4/build/CMakeFiles/CMakeScratch/TryCompile-x1jfoc"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /GR /EHsc /O2"
+      CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/Lenovo/tp_projekt_4/build/CPM_modules;;C:/Users/Lenovo/tp_projekt_4/matplotplusplus/cmake"
+    buildResult:
+      variable: "_CXX_FILESYSTEM_HAVE_HEADER"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Lenovo/tp_projekt_4/build/CMakeFiles/CMakeScratch/TryCompile-x1jfoc'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_5ed5b.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Wersja programu MSBuild 17.7.2+d6990bcfa dla .NET Framework
+        Kompilacja rozpoczęła się 28.05.2024 19:46:53.
+        
+        Projekt "C:\\Users\\Lenovo\\tp_projekt_4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-x1jfoc\\cmTC_5ed5b.vcxproj" w węźle 1 (domyślne elementy docelowe).
+        PrepareForBuild:
+          Tworzenie katalogu "cmTC_5ed5b.dir\\Debug\\".
+          Tworzenie katalogu "C:\\Users\\Lenovo\\tp_projekt_4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-x1jfoc\\Debug\\".
+          Tworzenie katalogu "cmTC_5ed5b.dir\\Debug\\cmTC_5ed5b.tlog\\".
+        InitializeBuildStatus:
+          Trwa tworzenie "cmTC_5ed5b.dir\\Debug\\cmTC_5ed5b.tlog\\unsuccessfulbuild", ponieważ określono "AlwaysCreate".
+          Modyfikowanie "cmTC_5ed5b.dir\\Debug\\cmTC_5ed5b.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /std:c++17 /Fo"cmTC_5ed5b.dir\\Debug\\\\" /Fd"cmTC_5ed5b.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Users\\Lenovo\\tp_projekt_4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-x1jfoc\\CheckIncludeFile.cxx"
+          Microsoft (R) C/C++ wersja kompilatora optymalizującego 19.37.32825 dla x64
+          CheckIncludeFile.cxx
+          Copyright (C) Microsoft Corporation. Wszystkie prawa zastrzeżone.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /std:c++17 /Fo"cmTC_5ed5b.dir\\Debug\\\\" /Fd"cmTC_5ed5b.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Users\\Lenovo\\tp_projekt_4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-x1jfoc\\CheckIncludeFile.cxx"
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\Lenovo\\tp_projekt_4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-x1jfoc\\Debug\\cmTC_5ed5b.exe" /INCREMENTAL /ILK:"cmTC_5ed5b.dir\\Debug\\cmTC_5ed5b.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Lenovo/tp_projekt_4/build/CMakeFiles/CMakeScratch/TryCompile-x1jfoc/Debug/cmTC_5ed5b.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Lenovo/tp_projekt_4/build/CMakeFiles/CMakeScratch/TryCompile-x1jfoc/Debug/cmTC_5ed5b.lib" /MACHINE:X64  /machine:x64 cmTC_5ed5b.dir\\Debug\\CheckIncludeFile.obj
+          cmTC_5ed5b.vcxproj -> C:\\Users\\Lenovo\\tp_projekt_4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-x1jfoc\\Debug\\cmTC_5ed5b.exe
+        FinalizeBuildStatus:
+          Usuwanie pliku "cmTC_5ed5b.dir\\Debug\\cmTC_5ed5b.tlog\\unsuccessfulbuild".
+          Modyfikowanie "cmTC_5ed5b.dir\\Debug\\cmTC_5ed5b.tlog\\cmTC_5ed5b.lastbuildstate".
+        Kompilowanie projektu "C:\\Users\\Lenovo\\tp_projekt_4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-x1jfoc\\cmTC_5ed5b.vcxproj" wykonane (domyślne elementy docelowe).
+        
+        Kompilacja powiodła się.
+            Ostrzeżenia: 0
+            Liczba błędów: 0
+        
+        Czas, który upłynął: 00:00:00.80
+        
+      exitCode: 0
+  -
+    kind: "try_run-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/Internal/CheckSourceRuns.cmake:93 (try_run)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CheckCXXSourceRuns.cmake:52 (cmake_check_source_runs)"
+      - "matplotplusplus/cmake/FindFilesystem.cmake:120 (check_cxx_source_runs)"
+      - "matplotplusplus/cmake/FindFilesystem.cmake:210 (_cmcm_check_cxx_source)"
+      - "matplotplusplus/source/matplot/CMakeLists.txt:2 (find_package)"
+    checks:
+      - "Performing Test CXX_FILESYSTEM_NO_LINK_NEEDED"
+    directories:
+      source: "C:/Users/Lenovo/tp_projekt_4/build/CMakeFiles/CMakeScratch/TryCompile-p9wehc"
+      binary: "C:/Users/Lenovo/tp_projekt_4/build/CMakeFiles/CMakeScratch/TryCompile-p9wehc"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /GR /EHsc /O2"
+      CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/Lenovo/tp_projekt_4/build/CPM_modules;;C:/Users/Lenovo/tp_projekt_4/matplotplusplus/cmake"
+    buildResult:
+      variable: "CXX_FILESYSTEM_NO_LINK_NEEDED_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Lenovo/tp_projekt_4/build/CMakeFiles/CMakeScratch/TryCompile-p9wehc'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_a1dc1.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Wersja programu MSBuild 17.7.2+d6990bcfa dla .NET Framework
+        Kompilacja rozpoczęła się 28.05.2024 19:46:54.
+        
+        Projekt "C:\\Users\\Lenovo\\tp_projekt_4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-p9wehc\\cmTC_a1dc1.vcxproj" w węźle 1 (domyślne elementy docelowe).
+        PrepareForBuild:
+          Tworzenie katalogu "cmTC_a1dc1.dir\\Debug\\".
+          Tworzenie katalogu "C:\\Users\\Lenovo\\tp_projekt_4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-p9wehc\\Debug\\".
+          Tworzenie katalogu "cmTC_a1dc1.dir\\Debug\\cmTC_a1dc1.tlog\\".
+        InitializeBuildStatus:
+          Trwa tworzenie "cmTC_a1dc1.dir\\Debug\\cmTC_a1dc1.tlog\\unsuccessfulbuild", ponieważ określono "AlwaysCreate".
+          Modyfikowanie "cmTC_a1dc1.dir\\Debug\\cmTC_a1dc1.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CXX_FILESYSTEM_NO_LINK_NEEDED /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /std:c++17 /Fo"cmTC_a1dc1.dir\\Debug\\\\" /Fd"cmTC_a1dc1.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Users\\Lenovo\\tp_projekt_4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-p9wehc\\src.cxx"
+          Microsoft (R) C/C++ wersja kompilatora optymalizującego 19.37.32825 dla x64
+          src.cxx
+          Copyright (C) Microsoft Corporation. Wszystkie prawa zastrzeżone.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CXX_FILESYSTEM_NO_LINK_NEEDED /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /std:c++17 /Fo"cmTC_a1dc1.dir\\Debug\\\\" /Fd"cmTC_a1dc1.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Users\\Lenovo\\tp_projekt_4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-p9wehc\\src.cxx"
+        C:\\Users\\Lenovo\\tp_projekt_4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-p9wehc\\src.cxx(6,20): warning C4477: "printf": ciąg formatu "%s" wymaga argumentu typu "char *", ale argument 1 ze zmienną liczbą argumentów ma typ "const std::filesystem::path::value_type *" [C:\\Users\\Lenovo\\tp_projekt_4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-p9wehc\\cmTC_a1dc1.vcxproj]
+        C:\\Users\\Lenovo\\tp_projekt_4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-p9wehc\\src.cxx(6,20): message : rozważ użycie elementu "%ls" w ciągu formatu [C:\\Users\\Lenovo\\tp_projekt_4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-p9wehc\\cmTC_a1dc1.vcxproj]
+        C:\\Users\\Lenovo\\tp_projekt_4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-p9wehc\\src.cxx(6,20): message : rozważ użycie elementu "%lls" w ciągu formatu [C:\\Users\\Lenovo\\tp_projekt_4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-p9wehc\\cmTC_a1dc1.vcxproj]
+        C:\\Users\\Lenovo\\tp_projekt_4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-p9wehc\\src.cxx(6,20): message : rozważ użycie elementu "%Ls" w ciągu formatu [C:\\Users\\Lenovo\\tp_projekt_4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-p9wehc\\cmTC_a1dc1.vcxproj]
+        C:\\Users\\Lenovo\\tp_projekt_4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-p9wehc\\src.cxx(6,20): message : rozważ użycie elementu "%ws" w ciągu formatu [C:\\Users\\Lenovo\\tp_projekt_4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-p9wehc\\cmTC_a1dc1.vcxproj]
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\Lenovo\\tp_projekt_4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-p9wehc\\Debug\\cmTC_a1dc1.exe" /INCREMENTAL /ILK:"cmTC_a1dc1.dir\\Debug\\cmTC_a1dc1.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Lenovo/tp_projekt_4/build/CMakeFiles/CMakeScratch/TryCompile-p9wehc/Debug/cmTC_a1dc1.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Lenovo/tp_projekt_4/build/CMakeFiles/CMakeScratch/TryCompile-p9wehc/Debug/cmTC_a1dc1.lib" /MACHINE:X64  /machine:x64 cmTC_a1dc1.dir\\Debug\\src.obj
+          cmTC_a1dc1.vcxproj -> C:\\Users\\Lenovo\\tp_projekt_4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-p9wehc\\Debug\\cmTC_a1dc1.exe
+        FinalizeBuildStatus:
+          Usuwanie pliku "cmTC_a1dc1.dir\\Debug\\cmTC_a1dc1.tlog\\unsuccessfulbuild".
+          Modyfikowanie "cmTC_a1dc1.dir\\Debug\\cmTC_a1dc1.tlog\\cmTC_a1dc1.lastbuildstate".
+        Kompilowanie projektu "C:\\Users\\Lenovo\\tp_projekt_4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-p9wehc\\cmTC_a1dc1.vcxproj" wykonane (domyślne elementy docelowe).
+        
+        Kompilacja powiodła się.
+        
+        "C:\\Users\\Lenovo\\tp_projekt_4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-p9wehc\\cmTC_a1dc1.vcxproj" (domyślny element docelowy) (1)->
+        (element docelowy ClCompile) -> 
+          C:\\Users\\Lenovo\\tp_projekt_4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-p9wehc\\src.cxx(6,20): warning C4477: "printf": ciąg formatu "%s" wymaga argumentu typu "char *", ale argument 1 ze zmienną liczbą argumentów ma typ "const std::filesystem::path::value_type *" [C:\\Users\\Lenovo\\tp_projekt_4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-p9wehc\\cmTC_a1dc1.vcxproj]
+        
+            Ostrzeżenia: 1
+            Liczba błędów: 0
+        
+        Czas, który upłynął: 00:00:00.77
+        
+      exitCode: 0
+    runResult:
+      variable: "CXX_FILESYSTEM_NO_LINK_NEEDED_EXITCODE"
+      cached: true
+      stdout: |
+        C
+      stderr: |
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CheckSymbolExists.cmake:140 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CheckSymbolExists.cmake:66 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "matplotplusplus/source/matplot/CMakeLists.txt:141 (check_symbol_exists)"
+    checks:
+      - "Looking for __fbufsize"
+    directories:
+      source: "C:/Users/Lenovo/tp_projekt_4/build/CMakeFiles/CMakeScratch/TryCompile-ae6wst"
+      binary: "C:/Users/Lenovo/tp_projekt_4/build/CMakeFiles/CMakeScratch/TryCompile-ae6wst"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/Lenovo/tp_projekt_4/build/CPM_modules;;C:/Users/Lenovo/tp_projekt_4/matplotplusplus/cmake"
+    buildResult:
+      variable: "HAVE_FBUFSIZE"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Lenovo/tp_projekt_4/build/CMakeFiles/CMakeScratch/TryCompile-ae6wst'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_78072.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Wersja programu MSBuild 17.7.2+d6990bcfa dla .NET Framework
+        Kompilacja rozpoczęła się 28.05.2024 19:46:55.
+        
+        Projekt "C:\\Users\\Lenovo\\tp_projekt_4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ae6wst\\cmTC_78072.vcxproj" w węźle 1 (domyślne elementy docelowe).
+        PrepareForBuild:
+          Tworzenie katalogu "cmTC_78072.dir\\Debug\\".
+          Tworzenie katalogu "C:\\Users\\Lenovo\\tp_projekt_4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ae6wst\\Debug\\".
+          Tworzenie katalogu "cmTC_78072.dir\\Debug\\cmTC_78072.tlog\\".
+        InitializeBuildStatus:
+          Trwa tworzenie "cmTC_78072.dir\\Debug\\cmTC_78072.tlog\\unsuccessfulbuild", ponieważ określono "AlwaysCreate".
+          Modyfikowanie "cmTC_78072.dir\\Debug\\cmTC_78072.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_78072.dir\\Debug\\\\" /Fd"cmTC_78072.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\Lenovo\\tp_projekt_4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ae6wst\\CheckSymbolExists.c"
+          Microsoft (R) C/C++ wersja kompilatora optymalizującego 19.37.32825 dla x64
+          CheckSymbolExists.c
+          Copyright (C) Microsoft Corporation. Wszystkie prawa zastrzeżone.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_78072.dir\\Debug\\\\" /Fd"cmTC_78072.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\Lenovo\\tp_projekt_4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ae6wst\\CheckSymbolExists.c"
+        C:\\Users\\Lenovo\\tp_projekt_4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ae6wst\\CheckSymbolExists.c(2,10): fatal  error C1083: Nie można otworzyć pliku dołącz: 'stdio_ext.h': No such file or directory [C:\\Users\\Lenovo\\tp_projekt_4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ae6wst\\cmTC_78072.vcxproj]
+        Kompilowanie projektu "C:\\Users\\Lenovo\\tp_projekt_4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ae6wst\\cmTC_78072.vcxproj" wykonane (domyślne elementy docelowe) - NIEPOWODZENIE.
+        
+        Kompilacja NIE POWIODŁA SIĘ.
+        
+        "C:\\Users\\Lenovo\\tp_projekt_4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ae6wst\\cmTC_78072.vcxproj" (domyślny element docelowy) (1)->
+        (element docelowy ClCompile) -> 
+          C:\\Users\\Lenovo\\tp_projekt_4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ae6wst\\CheckSymbolExists.c(2,10): fatal  error C1083: Nie można otworzyć pliku dołącz: 'stdio_ext.h': No such file or directory [C:\\Users\\Lenovo\\tp_projekt_4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ae6wst\\cmTC_78072.vcxproj]
+        
+            Ostrzeżenia: 0
+            Liczba błędów: 1
+        
+        Czas, który upłynął: 00:00:00.22
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CheckSymbolExists.cmake:140 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CheckSymbolExists.cmake:66 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "SDL/CMakeLists.txt:77 (check_symbol_exists)"
+    checks:
+      - "Looking for __GLIBC__"
+    directories:
+      source: "C:/Users/Lenovo/tp_projekt_4/build/CMakeFiles/CMakeScratch/TryCompile-d0c8hc"
+      binary: "C:/Users/Lenovo/tp_projekt_4/build/CMakeFiles/CMakeScratch/TryCompile-d0c8hc"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/Lenovo/tp_projekt_4/SDL/cmake"
+    buildResult:
+      variable: "LIBC_IS_GLIBC"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Lenovo/tp_projekt_4/build/CMakeFiles/CMakeScratch/TryCompile-d0c8hc'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_037be.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Wersja programu MSBuild 17.7.2+d6990bcfa dla .NET Framework
+        Kompilacja rozpoczęła się 28.05.2024 19:46:56.
+        
+        Projekt "C:\\Users\\Lenovo\\tp_projekt_4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-d0c8hc\\cmTC_037be.vcxproj" w węźle 1 (domyślne elementy docelowe).
+        PrepareForBuild:
+          Tworzenie katalogu "cmTC_037be.dir\\Debug\\".
+          Tworzenie katalogu "C:\\Users\\Lenovo\\tp_projekt_4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-d0c8hc\\Debug\\".
+          Tworzenie katalogu "cmTC_037be.dir\\Debug\\cmTC_037be.tlog\\".
+        InitializeBuildStatus:
+          Trwa tworzenie "cmTC_037be.dir\\Debug\\cmTC_037be.tlog\\unsuccessfulbuild", ponieważ określono "AlwaysCreate".
+          Modyfikowanie "cmTC_037be.dir\\Debug\\cmTC_037be.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_037be.dir\\Debug\\\\" /Fd"cmTC_037be.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\Lenovo\\tp_projekt_4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-d0c8hc\\CheckSymbolExists.c"
+          Microsoft (R) C/C++ wersja kompilatora optymalizującego 19.37.32825 dla x64
+          CheckSymbolExists.c
+          Copyright (C) Microsoft Corporation. Wszystkie prawa zastrzeżone.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_037be.dir\\Debug\\\\" /Fd"cmTC_037be.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\Lenovo\\tp_projekt_4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-d0c8hc\\CheckSymbolExists.c"
+        C:\\Users\\Lenovo\\tp_projekt_4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-d0c8hc\\CheckSymbolExists.c(8,28): error C2065: "__GLIBC__": niezadeklarowany identyfikator [C:\\Users\\Lenovo\\tp_projekt_4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-d0c8hc\\cmTC_037be.vcxproj]
+        Kompilowanie projektu "C:\\Users\\Lenovo\\tp_projekt_4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-d0c8hc\\cmTC_037be.vcxproj" wykonane (domyślne elementy docelowe) - NIEPOWODZENIE.
+        
+        Kompilacja NIE POWIODŁA SIĘ.
+        
+        "C:\\Users\\Lenovo\\tp_projekt_4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-d0c8hc\\cmTC_037be.vcxproj" (domyślny element docelowy) (1)->
+        (element docelowy ClCompile) -> 
+          C:\\Users\\Lenovo\\tp_projekt_4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-d0c8hc\\CheckSymbolExists.c(8,28): error C2065: "__GLIBC__": niezadeklarowany identyfikator [C:\\Users\\Lenovo\\tp_projekt_4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-d0c8hc\\cmTC_037be.vcxproj]
+        
+            Ostrzeżenia: 0
+            Liczba błędów: 1
+        
+        Czas, który upłynął: 00:00:00.22
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "SDL/CMakeLists.txt:918 (check_include_file)"
+    checks:
+      - "Looking for immintrin.h"
+    directories:
+      source: "C:/Users/Lenovo/tp_projekt_4/build/CMakeFiles/CMakeScratch/TryCompile-ecx7fi"
+      binary: "C:/Users/Lenovo/tp_projekt_4/build/CMakeFiles/CMakeScratch/TryCompile-ecx7fi"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od "
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/Lenovo/tp_projekt_4/SDL/cmake"
+    buildResult:
+      variable: "HAVE_IMMINTRIN_H"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Lenovo/tp_projekt_4/build/CMakeFiles/CMakeScratch/TryCompile-ecx7fi'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_02932.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Wersja programu MSBuild 17.7.2+d6990bcfa dla .NET Framework
+        Kompilacja rozpoczęła się 28.05.2024 19:46:56.
+        
+        Projekt "C:\\Users\\Lenovo\\tp_projekt_4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ecx7fi\\cmTC_02932.vcxproj" w węźle 1 (domyślne elementy docelowe).
+        PrepareForBuild:
+          Tworzenie katalogu "cmTC_02932.dir\\Debug\\".
+          Tworzenie katalogu "C:\\Users\\Lenovo\\tp_projekt_4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ecx7fi\\Debug\\".
+          Tworzenie katalogu "cmTC_02932.dir\\Debug\\cmTC_02932.tlog\\".
+        InitializeBuildStatus:
+          Trwa tworzenie "cmTC_02932.dir\\Debug\\cmTC_02932.tlog\\unsuccessfulbuild", ponieważ określono "AlwaysCreate".
+          Modyfikowanie "cmTC_02932.dir\\Debug\\cmTC_02932.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_02932.dir\\Debug\\\\" /Fd"cmTC_02932.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\Lenovo\\tp_projekt_4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ecx7fi\\CheckIncludeFile.c"
+          Microsoft (R) C/C++ wersja kompilatora optymalizującego 19.37.32825 dla x64
+          CheckIncludeFile.c
+          Copyright (C) Microsoft Corporation. Wszystkie prawa zastrzeżone.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_02932.dir\\Debug\\\\" /Fd"cmTC_02932.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\Lenovo\\tp_projekt_4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ecx7fi\\CheckIncludeFile.c"
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\Lenovo\\tp_projekt_4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ecx7fi\\Debug\\cmTC_02932.exe" /INCREMENTAL /ILK:"cmTC_02932.dir\\Debug\\cmTC_02932.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Lenovo/tp_projekt_4/build/CMakeFiles/CMakeScratch/TryCompile-ecx7fi/Debug/cmTC_02932.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Lenovo/tp_projekt_4/build/CMakeFiles/CMakeScratch/TryCompile-ecx7fi/Debug/cmTC_02932.lib" /MACHINE:X64  /machine:x64 cmTC_02932.dir\\Debug\\CheckIncludeFile.obj
+          cmTC_02932.vcxproj -> C:\\Users\\Lenovo\\tp_projekt_4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ecx7fi\\Debug\\cmTC_02932.exe
+        FinalizeBuildStatus:
+          Usuwanie pliku "cmTC_02932.dir\\Debug\\cmTC_02932.tlog\\unsuccessfulbuild".
+          Modyfikowanie "cmTC_02932.dir\\Debug\\cmTC_02932.tlog\\cmTC_02932.lastbuildstate".
+        Kompilowanie projektu "C:\\Users\\Lenovo\\tp_projekt_4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ecx7fi\\cmTC_02932.vcxproj" wykonane (domyślne elementy docelowe).
+        
+        Kompilacja powiodła się.
+            Ostrzeżenia: 0
+            Liczba błędów: 0
+        
+        Czas, który upłynął: 00:00:00.38
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "SDL/CMakeLists.txt:1596 (check_c_source_compiles)"
+    checks:
+      - "Performing Test HAVE_WIN32_CC"
+    directories:
+      source: "C:/Users/Lenovo/tp_projekt_4/build/CMakeFiles/CMakeScratch/TryCompile-z9b0m7"
+      binary: "C:/Users/Lenovo/tp_projekt_4/build/CMakeFiles/CMakeScratch/TryCompile-z9b0m7"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od "
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/Lenovo/tp_projekt_4/SDL/cmake"
+    buildResult:
+      variable: "HAVE_WIN32_CC"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Lenovo/tp_projekt_4/build/CMakeFiles/CMakeScratch/TryCompile-z9b0m7'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_464d5.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Wersja programu MSBuild 17.7.2+d6990bcfa dla .NET Framework
+        Kompilacja rozpoczęła się 28.05.2024 19:46:56.
+        
+        Projekt "C:\\Users\\Lenovo\\tp_projekt_4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-z9b0m7\\cmTC_464d5.vcxproj" w węźle 1 (domyślne elementy docelowe).
+        PrepareForBuild:
+          Tworzenie katalogu "cmTC_464d5.dir\\Debug\\".
+          Tworzenie katalogu "C:\\Users\\Lenovo\\tp_projekt_4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-z9b0m7\\Debug\\".
+          Tworzenie katalogu "cmTC_464d5.dir\\Debug\\cmTC_464d5.tlog\\".
+        InitializeBuildStatus:
+          Trwa tworzenie "cmTC_464d5.dir\\Debug\\cmTC_464d5.tlog\\unsuccessfulbuild", ponieważ określono "AlwaysCreate".
+          Modyfikowanie "cmTC_464d5.dir\\Debug\\cmTC_464d5.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D HAVE_WIN32_CC /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_464d5.dir\\Debug\\\\" /Fd"cmTC_464d5.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\Lenovo\\tp_projekt_4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-z9b0m7\\src.c"
+          Microsoft (R) C/C++ wersja kompilatora optymalizującego 19.37.32825 dla x64
+          Copyright (C) Microsoft Corporation. Wszystkie prawa zastrzeżone.
+          src.c
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D HAVE_WIN32_CC /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_464d5.dir\\Debug\\\\" /Fd"cmTC_464d5.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\Lenovo\\tp_projekt_4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-z9b0m7\\src.c"
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\Lenovo\\tp_projekt_4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-z9b0m7\\Debug\\cmTC_464d5.exe" /INCREMENTAL /ILK:"cmTC_464d5.dir\\Debug\\cmTC_464d5.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Lenovo/tp_projekt_4/build/CMakeFiles/CMakeScratch/TryCompile-z9b0m7/Debug/cmTC_464d5.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Lenovo/tp_projekt_4/build/CMakeFiles/CMakeScratch/TryCompile-z9b0m7/Debug/cmTC_464d5.lib" /MACHINE:X64  /machine:x64 cmTC_464d5.dir\\Debug\\src.obj
+          cmTC_464d5.vcxproj -> C:\\Users\\Lenovo\\tp_projekt_4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-z9b0m7\\Debug\\cmTC_464d5.exe
+        FinalizeBuildStatus:
+          Usuwanie pliku "cmTC_464d5.dir\\Debug\\cmTC_464d5.tlog\\unsuccessfulbuild".
+          Modyfikowanie "cmTC_464d5.dir\\Debug\\cmTC_464d5.tlog\\cmTC_464d5.lastbuildstate".
+        Kompilowanie projektu "C:\\Users\\Lenovo\\tp_projekt_4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-z9b0m7\\cmTC_464d5.vcxproj" wykonane (domyślne elementy docelowe).
+        
+        Kompilacja powiodła się.
+            Ostrzeżenia: 0
+            Liczba błędów: 0
+        
+        Czas, który upłynął: 00:00:00.54
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "SDL/CMakeLists.txt:1638 (check_include_file)"
+    checks:
+      - "Looking for d3d9.h"
+    directories:
+      source: "C:/Users/Lenovo/tp_projekt_4/build/CMakeFiles/CMakeScratch/TryCompile-qz5wp4"
+      binary: "C:/Users/Lenovo/tp_projekt_4/build/CMakeFiles/CMakeScratch/TryCompile-qz5wp4"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od "
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/Lenovo/tp_projekt_4/SDL/cmake"
+    buildResult:
+      variable: "HAVE_D3D_H"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Lenovo/tp_projekt_4/build/CMakeFiles/CMakeScratch/TryCompile-qz5wp4'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_6aa53.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Wersja programu MSBuild 17.7.2+d6990bcfa dla .NET Framework
+        Kompilacja rozpoczęła się 28.05.2024 19:46:57.
+        
+        Projekt "C:\\Users\\Lenovo\\tp_projekt_4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qz5wp4\\cmTC_6aa53.vcxproj" w węźle 1 (domyślne elementy docelowe).
+        PrepareForBuild:
+          Tworzenie katalogu "cmTC_6aa53.dir\\Debug\\".
+          Tworzenie katalogu "C:\\Users\\Lenovo\\tp_projekt_4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qz5wp4\\Debug\\".
+          Tworzenie katalogu "cmTC_6aa53.dir\\Debug\\cmTC_6aa53.tlog\\".
+        InitializeBuildStatus:
+          Trwa tworzenie "cmTC_6aa53.dir\\Debug\\cmTC_6aa53.tlog\\unsuccessfulbuild", ponieważ określono "AlwaysCreate".
+          Modyfikowanie "cmTC_6aa53.dir\\Debug\\cmTC_6aa53.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_6aa53.dir\\Debug\\\\" /Fd"cmTC_6aa53.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\Lenovo\\tp_projekt_4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qz5wp4\\CheckIncludeFile.c"
+          Microsoft (R) C/C++ wersja kompilatora optymalizującego 19.37.32825 dla x64
+          Copyright (C) Microsoft Corporation. Wszystkie prawa zastrzeżone.
+          CheckIncludeFile.c
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_6aa53.dir\\Debug\\\\" /Fd"cmTC_6aa53.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\Lenovo\\tp_projekt_4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qz5wp4\\CheckIncludeFile.c"
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\Lenovo\\tp_projekt_4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qz5wp4\\Debug\\cmTC_6aa53.exe" /INCREMENTAL /ILK:"cmTC_6aa53.dir\\Debug\\cmTC_6aa53.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Lenovo/tp_projekt_4/build/CMakeFiles/CMakeScratch/TryCompile-qz5wp4/Debug/cmTC_6aa53.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Lenovo/tp_projekt_4/build/CMakeFiles/CMakeScratch/TryCompile-qz5wp4/Debug/cmTC_6aa53.lib" /MACHINE:X64  /machine:x64 cmTC_6aa53.dir\\Debug\\CheckIncludeFile.obj
+          cmTC_6aa53.vcxproj -> C:\\Users\\Lenovo\\tp_projekt_4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qz5wp4\\Debug\\cmTC_6aa53.exe
+        FinalizeBuildStatus:
+          Usuwanie pliku "cmTC_6aa53.dir\\Debug\\cmTC_6aa53.tlog\\unsuccessfulbuild".
+          Modyfikowanie "cmTC_6aa53.dir\\Debug\\cmTC_6aa53.tlog\\cmTC_6aa53.lastbuildstate".
+        Kompilowanie projektu "C:\\Users\\Lenovo\\tp_projekt_4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qz5wp4\\cmTC_6aa53.vcxproj" wykonane (domyślne elementy docelowe).
+        
+        Kompilacja powiodła się.
+            Ostrzeżenia: 0
+            Liczba błędów: 0
+        
+        Czas, który upłynął: 00:00:00.49
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "SDL/CMakeLists.txt:1639 (check_include_file)"
+    checks:
+      - "Looking for d3d11_1.h"
+    directories:
+      source: "C:/Users/Lenovo/tp_projekt_4/build/CMakeFiles/CMakeScratch/TryCompile-0t3mbj"
+      binary: "C:/Users/Lenovo/tp_projekt_4/build/CMakeFiles/CMakeScratch/TryCompile-0t3mbj"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od "
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/Lenovo/tp_projekt_4/SDL/cmake"
+    buildResult:
+      variable: "HAVE_D3D11_H"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Lenovo/tp_projekt_4/build/CMakeFiles/CMakeScratch/TryCompile-0t3mbj'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_a4dce.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Wersja programu MSBuild 17.7.2+d6990bcfa dla .NET Framework
+        Kompilacja rozpoczęła się 28.05.2024 19:46:58.
+        
+        Projekt "C:\\Users\\Lenovo\\tp_projekt_4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-0t3mbj\\cmTC_a4dce.vcxproj" w węźle 1 (domyślne elementy docelowe).
+        PrepareForBuild:
+          Tworzenie katalogu "cmTC_a4dce.dir\\Debug\\".
+          Tworzenie katalogu "C:\\Users\\Lenovo\\tp_projekt_4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-0t3mbj\\Debug\\".
+          Tworzenie katalogu "cmTC_a4dce.dir\\Debug\\cmTC_a4dce.tlog\\".
+        InitializeBuildStatus:
+          Trwa tworzenie "cmTC_a4dce.dir\\Debug\\cmTC_a4dce.tlog\\unsuccessfulbuild", ponieważ określono "AlwaysCreate".
+          Modyfikowanie "cmTC_a4dce.dir\\Debug\\cmTC_a4dce.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_a4dce.dir\\Debug\\\\" /Fd"cmTC_a4dce.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\Lenovo\\tp_projekt_4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-0t3mbj\\CheckIncludeFile.c"
+          Microsoft (R) C/C++ wersja kompilatora optymalizującego 19.37.32825 dla x64
+          CheckIncludeFile.c
+          Copyright (C) Microsoft Corporation. Wszystkie prawa zastrzeżone.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_a4dce.dir\\Debug\\\\" /Fd"cmTC_a4dce.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\Lenovo\\tp_projekt_4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-0t3mbj\\CheckIncludeFile.c"
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\Lenovo\\tp_projekt_4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-0t3mbj\\Debug\\cmTC_a4dce.exe" /INCREMENTAL /ILK:"cmTC_a4dce.dir\\Debug\\cmTC_a4dce.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Lenovo/tp_projekt_4/build/CMakeFiles/CMakeScratch/TryCompile-0t3mbj/Debug/cmTC_a4dce.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Lenovo/tp_projekt_4/build/CMakeFiles/CMakeScratch/TryCompile-0t3mbj/Debug/cmTC_a4dce.lib" /MACHINE:X64  /machine:x64 cmTC_a4dce.dir\\Debug\\CheckIncludeFile.obj
+          cmTC_a4dce.vcxproj -> C:\\Users\\Lenovo\\tp_projekt_4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-0t3mbj\\Debug\\cmTC_a4dce.exe
+        FinalizeBuildStatus:
+          Usuwanie pliku "cmTC_a4dce.dir\\Debug\\cmTC_a4dce.tlog\\unsuccessfulbuild".
+          Modyfikowanie "cmTC_a4dce.dir\\Debug\\cmTC_a4dce.tlog\\cmTC_a4dce.lastbuildstate".
+        Kompilowanie projektu "C:\\Users\\Lenovo\\tp_projekt_4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-0t3mbj\\cmTC_a4dce.vcxproj" wykonane (domyślne elementy docelowe).
+        
+        Kompilacja powiodła się.
+            Ostrzeżenia: 0
+            Liczba błędów: 0
+        
+        Czas, który upłynął: 00:00:00.51
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "SDL/CMakeLists.txt:1640 (check_c_source_compiles)"
+    checks:
+      - "Performing Test HAVE_D3D12_H"
+    directories:
+      source: "C:/Users/Lenovo/tp_projekt_4/build/CMakeFiles/CMakeScratch/TryCompile-3ao16h"
+      binary: "C:/Users/Lenovo/tp_projekt_4/build/CMakeFiles/CMakeScratch/TryCompile-3ao16h"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od "
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/Lenovo/tp_projekt_4/SDL/cmake"
+    buildResult:
+      variable: "HAVE_D3D12_H"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Lenovo/tp_projekt_4/build/CMakeFiles/CMakeScratch/TryCompile-3ao16h'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_67e98.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Wersja programu MSBuild 17.7.2+d6990bcfa dla .NET Framework
+        Kompilacja rozpoczęła się 28.05.2024 19:46:58.
+        
+        Projekt "C:\\Users\\Lenovo\\tp_projekt_4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-3ao16h\\cmTC_67e98.vcxproj" w węźle 1 (domyślne elementy docelowe).
+        PrepareForBuild:
+          Tworzenie katalogu "cmTC_67e98.dir\\Debug\\".
+          Tworzenie katalogu "C:\\Users\\Lenovo\\tp_projekt_4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-3ao16h\\Debug\\".
+          Tworzenie katalogu "cmTC_67e98.dir\\Debug\\cmTC_67e98.tlog\\".
+        InitializeBuildStatus:
+          Trwa tworzenie "cmTC_67e98.dir\\Debug\\cmTC_67e98.tlog\\unsuccessfulbuild", ponieważ określono "AlwaysCreate".
+          Modyfikowanie "cmTC_67e98.dir\\Debug\\cmTC_67e98.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D HAVE_D3D12_H /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_67e98.dir\\Debug\\\\" /Fd"cmTC_67e98.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\Lenovo\\tp_projekt_4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-3ao16h\\src.c"
+          Microsoft (R) C/C++ wersja kompilatora optymalizującego 19.37.32825 dla x64
+          src.c
+          Copyright (C) Microsoft Corporation. Wszystkie prawa zastrzeżone.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D HAVE_D3D12_H /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_67e98.dir\\Debug\\\\" /Fd"cmTC_67e98.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\Lenovo\\tp_projekt_4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-3ao16h\\src.c"
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\Lenovo\\tp_projekt_4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-3ao16h\\Debug\\cmTC_67e98.exe" /INCREMENTAL /ILK:"cmTC_67e98.dir\\Debug\\cmTC_67e98.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Lenovo/tp_projekt_4/build/CMakeFiles/CMakeScratch/TryCompile-3ao16h/Debug/cmTC_67e98.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Lenovo/tp_projekt_4/build/CMakeFiles/CMakeScratch/TryCompile-3ao16h/Debug/cmTC_67e98.lib" /MACHINE:X64  /machine:x64 cmTC_67e98.dir\\Debug\\src.obj
+          cmTC_67e98.vcxproj -> C:\\Users\\Lenovo\\tp_projekt_4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-3ao16h\\Debug\\cmTC_67e98.exe
+        FinalizeBuildStatus:
+          Usuwanie pliku "cmTC_67e98.dir\\Debug\\cmTC_67e98.tlog\\unsuccessfulbuild".
+          Modyfikowanie "cmTC_67e98.dir\\Debug\\cmTC_67e98.tlog\\cmTC_67e98.lastbuildstate".
+        Kompilowanie projektu "C:\\Users\\Lenovo\\tp_projekt_4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-3ao16h\\cmTC_67e98.vcxproj" wykonane (domyślne elementy docelowe).
+        
+        Kompilacja powiodła się.
+            Ostrzeżenia: 0
+            Liczba błędów: 0
+        
+        Czas, który upłynął: 00:00:00.51
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "SDL/CMakeLists.txt:1648 (check_include_file)"
+    checks:
+      - "Looking for ddraw.h"
+    directories:
+      source: "C:/Users/Lenovo/tp_projekt_4/build/CMakeFiles/CMakeScratch/TryCompile-vduejp"
+      binary: "C:/Users/Lenovo/tp_projekt_4/build/CMakeFiles/CMakeScratch/TryCompile-vduejp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od "
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/Lenovo/tp_projekt_4/SDL/cmake"
+    buildResult:
+      variable: "HAVE_DDRAW_H"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Lenovo/tp_projekt_4/build/CMakeFiles/CMakeScratch/TryCompile-vduejp'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_f81b9.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Wersja programu MSBuild 17.7.2+d6990bcfa dla .NET Framework
+        Kompilacja rozpoczęła się 28.05.2024 19:46:59.
+        
+        Projekt "C:\\Users\\Lenovo\\tp_projekt_4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-vduejp\\cmTC_f81b9.vcxproj" w węźle 1 (domyślne elementy docelowe).
+        PrepareForBuild:
+          Tworzenie katalogu "cmTC_f81b9.dir\\Debug\\".
+          Tworzenie katalogu "C:\\Users\\Lenovo\\tp_projekt_4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-vduejp\\Debug\\".
+          Tworzenie katalogu "cmTC_f81b9.dir\\Debug\\cmTC_f81b9.tlog\\".
+        InitializeBuildStatus:
+          Trwa tworzenie "cmTC_f81b9.dir\\Debug\\cmTC_f81b9.tlog\\unsuccessfulbuild", ponieważ określono "AlwaysCreate".
+          Modyfikowanie "cmTC_f81b9.dir\\Debug\\cmTC_f81b9.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_f81b9.dir\\Debug\\\\" /Fd"cmTC_f81b9.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\Lenovo\\tp_projekt_4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-vduejp\\CheckIncludeFile.c"
+          Microsoft (R) C/C++ wersja kompilatora optymalizującego 19.37.32825 dla x64
+          Copyright (C) Microsoft Corporation. Wszystkie prawa zastrzeżone.
+          CheckIncludeFile.c
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_f81b9.dir\\Debug\\\\" /Fd"cmTC_f81b9.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\Lenovo\\tp_projekt_4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-vduejp\\CheckIncludeFile.c"
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\Lenovo\\tp_projekt_4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-vduejp\\Debug\\cmTC_f81b9.exe" /INCREMENTAL /ILK:"cmTC_f81b9.dir\\Debug\\cmTC_f81b9.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Lenovo/tp_projekt_4/build/CMakeFiles/CMakeScratch/TryCompile-vduejp/Debug/cmTC_f81b9.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Lenovo/tp_projekt_4/build/CMakeFiles/CMakeScratch/TryCompile-vduejp/Debug/cmTC_f81b9.lib" /MACHINE:X64  /machine:x64 cmTC_f81b9.dir\\Debug\\CheckIncludeFile.obj
+          cmTC_f81b9.vcxproj -> C:\\Users\\Lenovo\\tp_projekt_4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-vduejp\\Debug\\cmTC_f81b9.exe
+        FinalizeBuildStatus:
+          Usuwanie pliku "cmTC_f81b9.dir\\Debug\\cmTC_f81b9.tlog\\unsuccessfulbuild".
+          Modyfikowanie "cmTC_f81b9.dir\\Debug\\cmTC_f81b9.tlog\\cmTC_f81b9.lastbuildstate".
+        Kompilowanie projektu "C:\\Users\\Lenovo\\tp_projekt_4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-vduejp\\cmTC_f81b9.vcxproj" wykonane (domyślne elementy docelowe).
+        
+        Kompilacja powiodła się.
+            Ostrzeżenia: 0
+            Liczba błędów: 0
+        
+        Czas, który upłynął: 00:00:00.48
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "SDL/CMakeLists.txt:1649 (check_include_file)"
+    checks:
+      - "Looking for dsound.h"
+    directories:
+      source: "C:/Users/Lenovo/tp_projekt_4/build/CMakeFiles/CMakeScratch/TryCompile-k6olv2"
+      binary: "C:/Users/Lenovo/tp_projekt_4/build/CMakeFiles/CMakeScratch/TryCompile-k6olv2"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od "
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/Lenovo/tp_projekt_4/SDL/cmake"
+    buildResult:
+      variable: "HAVE_DSOUND_H"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Lenovo/tp_projekt_4/build/CMakeFiles/CMakeScratch/TryCompile-k6olv2'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_daaad.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Wersja programu MSBuild 17.7.2+d6990bcfa dla .NET Framework
+        Kompilacja rozpoczęła się 28.05.2024 19:47:00.
+        
+        Projekt "C:\\Users\\Lenovo\\tp_projekt_4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-k6olv2\\cmTC_daaad.vcxproj" w węźle 1 (domyślne elementy docelowe).
+        PrepareForBuild:
+          Tworzenie katalogu "cmTC_daaad.dir\\Debug\\".
+          Tworzenie katalogu "C:\\Users\\Lenovo\\tp_projekt_4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-k6olv2\\Debug\\".
+          Tworzenie katalogu "cmTC_daaad.dir\\Debug\\cmTC_daaad.tlog\\".
+        InitializeBuildStatus:
+          Trwa tworzenie "cmTC_daaad.dir\\Debug\\cmTC_daaad.tlog\\unsuccessfulbuild", ponieważ określono "AlwaysCreate".
+          Modyfikowanie "cmTC_daaad.dir\\Debug\\cmTC_daaad.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_daaad.dir\\Debug\\\\" /Fd"cmTC_daaad.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\Lenovo\\tp_projekt_4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-k6olv2\\CheckIncludeFile.c"
+          Microsoft (R) C/C++ wersja kompilatora optymalizującego 19.37.32825 dla x64
+          Copyright (C) Microsoft Corporation. Wszystkie prawa zastrzeżone.
+          CheckIncludeFile.c
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_daaad.dir\\Debug\\\\" /Fd"cmTC_daaad.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\Lenovo\\tp_projekt_4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-k6olv2\\CheckIncludeFile.c"
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\Lenovo\\tp_projekt_4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-k6olv2\\Debug\\cmTC_daaad.exe" /INCREMENTAL /ILK:"cmTC_daaad.dir\\Debug\\cmTC_daaad.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Lenovo/tp_projekt_4/build/CMakeFiles/CMakeScratch/TryCompile-k6olv2/Debug/cmTC_daaad.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Lenovo/tp_projekt_4/build/CMakeFiles/CMakeScratch/TryCompile-k6olv2/Debug/cmTC_daaad.lib" /MACHINE:X64  /machine:x64 cmTC_daaad.dir\\Debug\\CheckIncludeFile.obj
+          cmTC_daaad.vcxproj -> C:\\Users\\Lenovo\\tp_projekt_4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-k6olv2\\Debug\\cmTC_daaad.exe
+        FinalizeBuildStatus:
+          Usuwanie pliku "cmTC_daaad.dir\\Debug\\cmTC_daaad.tlog\\unsuccessfulbuild".
+          Modyfikowanie "cmTC_daaad.dir\\Debug\\cmTC_daaad.tlog\\cmTC_daaad.lastbuildstate".
+        Kompilowanie projektu "C:\\Users\\Lenovo\\tp_projekt_4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-k6olv2\\cmTC_daaad.vcxproj" wykonane (domyślne elementy docelowe).
+        
+        Kompilacja powiodła się.
+            Ostrzeżenia: 0
+            Liczba błędów: 0
+        
+        Czas, który upłynął: 00:00:00.49
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "SDL/CMakeLists.txt:1650 (check_include_file)"
+    checks:
+      - "Looking for dinput.h"
+    directories:
+      source: "C:/Users/Lenovo/tp_projekt_4/build/CMakeFiles/CMakeScratch/TryCompile-y6dfao"
+      binary: "C:/Users/Lenovo/tp_projekt_4/build/CMakeFiles/CMakeScratch/TryCompile-y6dfao"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od "
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/Lenovo/tp_projekt_4/SDL/cmake"
+    buildResult:
+      variable: "HAVE_DINPUT_H"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Lenovo/tp_projekt_4/build/CMakeFiles/CMakeScratch/TryCompile-y6dfao'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_cb397.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Wersja programu MSBuild 17.7.2+d6990bcfa dla .NET Framework
+        Kompilacja rozpoczęła się 28.05.2024 19:47:00.
+        
+        Projekt "C:\\Users\\Lenovo\\tp_projekt_4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-y6dfao\\cmTC_cb397.vcxproj" w węźle 1 (domyślne elementy docelowe).
+        PrepareForBuild:
+          Tworzenie katalogu "cmTC_cb397.dir\\Debug\\".
+          Tworzenie katalogu "C:\\Users\\Lenovo\\tp_projekt_4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-y6dfao\\Debug\\".
+          Tworzenie katalogu "cmTC_cb397.dir\\Debug\\cmTC_cb397.tlog\\".
+        InitializeBuildStatus:
+          Trwa tworzenie "cmTC_cb397.dir\\Debug\\cmTC_cb397.tlog\\unsuccessfulbuild", ponieważ określono "AlwaysCreate".
+          Modyfikowanie "cmTC_cb397.dir\\Debug\\cmTC_cb397.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_cb397.dir\\Debug\\\\" /Fd"cmTC_cb397.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\Lenovo\\tp_projekt_4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-y6dfao\\CheckIncludeFile.c"
+          Microsoft (R) C/C++ wersja kompilatora optymalizującego 19.37.32825 dla x64
+          Copyright (C) Microsoft Corporation. Wszystkie prawa zastrzeżone.
+          CheckIncludeFile.c
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_cb397.dir\\Debug\\\\" /Fd"cmTC_cb397.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\Lenovo\\tp_projekt_4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-y6dfao\\CheckIncludeFile.c"
+          C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.22621.0\\um\\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\Lenovo\\tp_projekt_4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-y6dfao\\Debug\\cmTC_cb397.exe" /INCREMENTAL /ILK:"cmTC_cb397.dir\\Debug\\cmTC_cb397.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Lenovo/tp_projekt_4/build/CMakeFiles/CMakeScratch/TryCompile-y6dfao/Debug/cmTC_cb397.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Lenovo/tp_projekt_4/build/CMakeFiles/CMakeScratch/TryCompile-y6dfao/Debug/cmTC_cb397.lib" /MACHINE:X64  /machine:x64 cmTC_cb397.dir\\Debug\\CheckIncludeFile.obj
+          cmTC_cb397.vcxproj -> C:\\Users\\Lenovo\\tp_projekt_4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-y6dfao\\Debug\\cmTC_cb397.exe
+        FinalizeBuildStatus:
+          Usuwanie pliku "cmTC_cb397.dir\\Debug\\cmTC_cb397.tlog\\unsuccessfulbuild".
+          Modyfikowanie "cmTC_cb397.dir\\Debug\\cmTC_cb397.tlog\\cmTC_cb397.lastbuildstate".
+        Kompilowanie projektu "C:\\Users\\Lenovo\\tp_projekt_4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-y6dfao\\cmTC_cb397.vcxproj" wykonane (domyślne elementy docelowe).
+        
+        Kompilacja powiodła się.
+            Ostrzeżenia: 0
+            Liczba błędów: 0
+        
+        Czas, który upłynął: 00:00:00.49
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "SDL/CMakeLists.txt:1654 (check_include_file)"
+    checks:
+      - "Looking for dxgi.h"
+    directories:
+      source: "C:/Users/Lenovo/tp_projekt_4/build/CMakeFiles/CMakeScratch/TryCompile-el2xlk"
+      binary: "C:/Users/Lenovo/tp_projekt_4/build/CMakeFiles/CMakeScratch/TryCompile-el2xlk"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od "
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/Lenovo/tp_projekt_4/SDL/cmake"
+    buildResult:
+      variable: "HAVE_DXGI_H"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Lenovo/tp_projekt_4/build/CMakeFiles/CMakeScratch/TryCompile-el2xlk'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_fa433.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Wersja programu MSBuild 17.7.2+d6990bcfa dla .NET Framework
+        Kompilacja rozpoczęła się 28.05.2024 19:47:01.
+        
+        Projekt "C:\\Users\\Lenovo\\tp_projekt_4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-el2xlk\\cmTC_fa433.vcxproj" w węźle 1 (domyślne elementy docelowe).
+        PrepareForBuild:
+          Tworzenie katalogu "cmTC_fa433.dir\\Debug\\".
+          Tworzenie katalogu "C:\\Users\\Lenovo\\tp_projekt_4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-el2xlk\\Debug\\".
+          Tworzenie katalogu "cmTC_fa433.dir\\Debug\\cmTC_fa433.tlog\\".
+        InitializeBuildStatus:
+          Trwa tworzenie "cmTC_fa433.dir\\Debug\\cmTC_fa433.tlog\\unsuccessfulbuild", ponieważ określono "AlwaysCreate".
+          Modyfikowanie "cmTC_fa433.dir\\Debug\\cmTC_fa433.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_fa433.dir\\Debug\\\\" /Fd"cmTC_fa433.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\Lenovo\\tp_projekt_4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-el2xlk\\CheckIncludeFile.c"
+          Microsoft (R) C/C++ wersja kompilatora optymalizującego 19.37.32825 dla x64
+          CheckIncludeFile.c
+          Copyright (C) Microsoft Corporation. Wszystkie prawa zastrzeżone.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_fa433.dir\\Debug\\\\" /Fd"cmTC_fa433.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\Lenovo\\tp_projekt_4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-el2xlk\\CheckIncludeFile.c"
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\Lenovo\\tp_projekt_4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-el2xlk\\Debug\\cmTC_fa433.exe" /INCREMENTAL /ILK:"cmTC_fa433.dir\\Debug\\cmTC_fa433.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Lenovo/tp_projekt_4/build/CMakeFiles/CMakeScratch/TryCompile-el2xlk/Debug/cmTC_fa433.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Lenovo/tp_projekt_4/build/CMakeFiles/CMakeScratch/TryCompile-el2xlk/Debug/cmTC_fa433.lib" /MACHINE:X64  /machine:x64 cmTC_fa433.dir\\Debug\\CheckIncludeFile.obj
+          cmTC_fa433.vcxproj -> C:\\Users\\Lenovo\\tp_projekt_4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-el2xlk\\Debug\\cmTC_fa433.exe
+        FinalizeBuildStatus:
+          Usuwanie pliku "cmTC_fa433.dir\\Debug\\cmTC_fa433.tlog\\unsuccessfulbuild".
+          Modyfikowanie "cmTC_fa433.dir\\Debug\\cmTC_fa433.tlog\\cmTC_fa433.lastbuildstate".
+        Kompilowanie projektu "C:\\Users\\Lenovo\\tp_projekt_4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-el2xlk\\cmTC_fa433.vcxproj" wykonane (domyślne elementy docelowe).
+        
+        Kompilacja powiodła się.
+            Ostrzeżenia: 0
+            Liczba błędów: 0
+        
+        Czas, który upłynął: 00:00:00.49
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "SDL/CMakeLists.txt:1668 (check_c_source_compiles)"
+    checks:
+      - "Performing Test HAVE_XINPUT_H"
+    directories:
+      source: "C:/Users/Lenovo/tp_projekt_4/build/CMakeFiles/CMakeScratch/TryCompile-bsf9p8"
+      binary: "C:/Users/Lenovo/tp_projekt_4/build/CMakeFiles/CMakeScratch/TryCompile-bsf9p8"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od "
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/Lenovo/tp_projekt_4/SDL/cmake"
+    buildResult:
+      variable: "HAVE_XINPUT_H"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Lenovo/tp_projekt_4/build/CMakeFiles/CMakeScratch/TryCompile-bsf9p8'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_18583.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Wersja programu MSBuild 17.7.2+d6990bcfa dla .NET Framework
+        Kompilacja rozpoczęła się 28.05.2024 19:47:01.
+        
+        Projekt "C:\\Users\\Lenovo\\tp_projekt_4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-bsf9p8\\cmTC_18583.vcxproj" w węźle 1 (domyślne elementy docelowe).
+        PrepareForBuild:
+          Tworzenie katalogu "cmTC_18583.dir\\Debug\\".
+          Tworzenie katalogu "C:\\Users\\Lenovo\\tp_projekt_4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-bsf9p8\\Debug\\".
+          Tworzenie katalogu "cmTC_18583.dir\\Debug\\cmTC_18583.tlog\\".
+        InitializeBuildStatus:
+          Trwa tworzenie "cmTC_18583.dir\\Debug\\cmTC_18583.tlog\\unsuccessfulbuild", ponieważ określono "AlwaysCreate".
+          Modyfikowanie "cmTC_18583.dir\\Debug\\cmTC_18583.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D HAVE_XINPUT_H /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_18583.dir\\Debug\\\\" /Fd"cmTC_18583.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\Lenovo\\tp_projekt_4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-bsf9p8\\src.c"
+          Microsoft (R) C/C++ wersja kompilatora optymalizującego 19.37.32825 dla x64
+          src.c
+          Copyright (C) Microsoft Corporation. Wszystkie prawa zastrzeżone.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D HAVE_XINPUT_H /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_18583.dir\\Debug\\\\" /Fd"cmTC_18583.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\Lenovo\\tp_projekt_4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-bsf9p8\\src.c"
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\Lenovo\\tp_projekt_4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-bsf9p8\\Debug\\cmTC_18583.exe" /INCREMENTAL /ILK:"cmTC_18583.dir\\Debug\\cmTC_18583.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Lenovo/tp_projekt_4/build/CMakeFiles/CMakeScratch/TryCompile-bsf9p8/Debug/cmTC_18583.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Lenovo/tp_projekt_4/build/CMakeFiles/CMakeScratch/TryCompile-bsf9p8/Debug/cmTC_18583.lib" /MACHINE:X64  /machine:x64 cmTC_18583.dir\\Debug\\src.obj
+          cmTC_18583.vcxproj -> C:\\Users\\Lenovo\\tp_projekt_4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-bsf9p8\\Debug\\cmTC_18583.exe
+        FinalizeBuildStatus:
+          Usuwanie pliku "cmTC_18583.dir\\Debug\\cmTC_18583.tlog\\unsuccessfulbuild".
+          Modyfikowanie "cmTC_18583.dir\\Debug\\cmTC_18583.tlog\\cmTC_18583.lastbuildstate".
+        Kompilowanie projektu "C:\\Users\\Lenovo\\tp_projekt_4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-bsf9p8\\cmTC_18583.vcxproj" wykonane (domyślne elementy docelowe).
+        
+        Kompilacja powiodła się.
+            Ostrzeżenia: 0
+            Liczba błędów: 0
+        
+        Czas, który upłynął: 00:00:00.98
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "SDL/CMakeLists.txt:1672 (check_c_source_compiles)"
+    checks:
+      - "Performing Test HAVE_XINPUT_GAMEPAD_EX"
+    directories:
+      source: "C:/Users/Lenovo/tp_projekt_4/build/CMakeFiles/CMakeScratch/TryCompile-udewox"
+      binary: "C:/Users/Lenovo/tp_projekt_4/build/CMakeFiles/CMakeScratch/TryCompile-udewox"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od "
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/Lenovo/tp_projekt_4/SDL/cmake"
+    buildResult:
+      variable: "HAVE_XINPUT_GAMEPAD_EX"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Lenovo/tp_projekt_4/build/CMakeFiles/CMakeScratch/TryCompile-udewox'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_0ed12.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Wersja programu MSBuild 17.7.2+d6990bcfa dla .NET Framework
+        Kompilacja rozpoczęła się 28.05.2024 19:47:02.
+        
+        Projekt "C:\\Users\\Lenovo\\tp_projekt_4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-udewox\\cmTC_0ed12.vcxproj" w węźle 1 (domyślne elementy docelowe).
+        PrepareForBuild:
+          Tworzenie katalogu "cmTC_0ed12.dir\\Debug\\".
+          Tworzenie katalogu "C:\\Users\\Lenovo\\tp_projekt_4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-udewox\\Debug\\".
+          Tworzenie katalogu "cmTC_0ed12.dir\\Debug\\cmTC_0ed12.tlog\\".
+        InitializeBuildStatus:
+          Trwa tworzenie "cmTC_0ed12.dir\\Debug\\cmTC_0ed12.tlog\\unsuccessfulbuild", ponieważ określono "AlwaysCreate".
+          Modyfikowanie "cmTC_0ed12.dir\\Debug\\cmTC_0ed12.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D HAVE_XINPUT_GAMEPAD_EX /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_0ed12.dir\\Debug\\\\" /Fd"cmTC_0ed12.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\Lenovo\\tp_projekt_4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-udewox\\src.c"
+          Microsoft (R) C/C++ wersja kompilatora optymalizującego 19.37.32825 dla x64
+          src.c
+          Copyright (C) Microsoft Corporation. Wszystkie prawa zastrzeżone.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D HAVE_XINPUT_GAMEPAD_EX /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_0ed12.dir\\Debug\\\\" /Fd"cmTC_0ed12.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\Lenovo\\tp_projekt_4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-udewox\\src.c"
+        C:\\Users\\Lenovo\\tp_projekt_4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-udewox\\src.c(4,25): error C2061: błąd składniowy: identyfikator "x1" [C:\\Users\\Lenovo\\tp_projekt_4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-udewox\\cmTC_0ed12.vcxproj]
+        C:\\Users\\Lenovo\\tp_projekt_4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-udewox\\src.c(4,25): error C2059: błąd składniowy: ";" [C:\\Users\\Lenovo\\tp_projekt_4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-udewox\\cmTC_0ed12.vcxproj]
+        Kompilowanie projektu "C:\\Users\\Lenovo\\tp_projekt_4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-udewox\\cmTC_0ed12.vcxproj" wykonane (domyślne elementy docelowe) - NIEPOWODZENIE.
+        
+        Kompilacja NIE POWIODŁA SIĘ.
+        
+        "C:\\Users\\Lenovo\\tp_projekt_4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-udewox\\cmTC_0ed12.vcxproj" (domyślny element docelowy) (1)->
+        (element docelowy ClCompile) -> 
+          C:\\Users\\Lenovo\\tp_projekt_4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-udewox\\src.c(4,25): error C2061: błąd składniowy: identyfikator "x1" [C:\\Users\\Lenovo\\tp_projekt_4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-udewox\\cmTC_0ed12.vcxproj]
+          C:\\Users\\Lenovo\\tp_projekt_4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-udewox\\src.c(4,25): error C2059: błąd składniowy: ";" [C:\\Users\\Lenovo\\tp_projekt_4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-udewox\\cmTC_0ed12.vcxproj]
+        
+            Ostrzeżenia: 0
+            Liczba błędów: 2
+        
+        Czas, który upłynął: 00:00:00.35
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "SDL/CMakeLists.txt:1677 (check_c_source_compiles)"
+    checks:
+      - "Performing Test HAVE_XINPUT_STATE_EX"
+    directories:
+      source: "C:/Users/Lenovo/tp_projekt_4/build/CMakeFiles/CMakeScratch/TryCompile-1u6gkp"
+      binary: "C:/Users/Lenovo/tp_projekt_4/build/CMakeFiles/CMakeScratch/TryCompile-1u6gkp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od "
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/Lenovo/tp_projekt_4/SDL/cmake"
+    buildResult:
+      variable: "HAVE_XINPUT_STATE_EX"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Lenovo/tp_projekt_4/build/CMakeFiles/CMakeScratch/TryCompile-1u6gkp'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_69c50.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Wersja programu MSBuild 17.7.2+d6990bcfa dla .NET Framework
+        Kompilacja rozpoczęła się 28.05.2024 19:47:03.
+        
+        Projekt "C:\\Users\\Lenovo\\tp_projekt_4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1u6gkp\\cmTC_69c50.vcxproj" w węźle 1 (domyślne elementy docelowe).
+        PrepareForBuild:
+          Tworzenie katalogu "cmTC_69c50.dir\\Debug\\".
+          Tworzenie katalogu "C:\\Users\\Lenovo\\tp_projekt_4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1u6gkp\\Debug\\".
+          Tworzenie katalogu "cmTC_69c50.dir\\Debug\\cmTC_69c50.tlog\\".
+        InitializeBuildStatus:
+          Trwa tworzenie "cmTC_69c50.dir\\Debug\\cmTC_69c50.tlog\\unsuccessfulbuild", ponieważ określono "AlwaysCreate".
+          Modyfikowanie "cmTC_69c50.dir\\Debug\\cmTC_69c50.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D HAVE_XINPUT_STATE_EX /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_69c50.dir\\Debug\\\\" /Fd"cmTC_69c50.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\Lenovo\\tp_projekt_4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1u6gkp\\src.c"
+          Microsoft (R) C/C++ wersja kompilatora optymalizującego 19.37.32825 dla x64
+          src.c
+          Copyright (C) Microsoft Corporation. Wszystkie prawa zastrzeżone.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D HAVE_XINPUT_STATE_EX /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_69c50.dir\\Debug\\\\" /Fd"cmTC_69c50.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\Lenovo\\tp_projekt_4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1u6gkp\\src.c"
+        C:\\Users\\Lenovo\\tp_projekt_4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1u6gkp\\src.c(4,23): error C2061: błąd składniowy: identyfikator "s1" [C:\\Users\\Lenovo\\tp_projekt_4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1u6gkp\\cmTC_69c50.vcxproj]
+        C:\\Users\\Lenovo\\tp_projekt_4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1u6gkp\\src.c(4,23): error C2059: błąd składniowy: ";" [C:\\Users\\Lenovo\\tp_projekt_4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1u6gkp\\cmTC_69c50.vcxproj]
+        Kompilowanie projektu "C:\\Users\\Lenovo\\tp_projekt_4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1u6gkp\\cmTC_69c50.vcxproj" wykonane (domyślne elementy docelowe) - NIEPOWODZENIE.
+        
+        Kompilacja NIE POWIODŁA SIĘ.
+        
+        "C:\\Users\\Lenovo\\tp_projekt_4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1u6gkp\\cmTC_69c50.vcxproj" (domyślny element docelowy) (1)->
+        (element docelowy ClCompile) -> 
+          C:\\Users\\Lenovo\\tp_projekt_4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1u6gkp\\src.c(4,23): error C2061: błąd składniowy: identyfikator "s1" [C:\\Users\\Lenovo\\tp_projekt_4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1u6gkp\\cmTC_69c50.vcxproj]
+          C:\\Users\\Lenovo\\tp_projekt_4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1u6gkp\\src.c(4,23): error C2059: błąd składniowy: ";" [C:\\Users\\Lenovo\\tp_projekt_4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1u6gkp\\cmTC_69c50.vcxproj]
+        
+            Ostrzeżenia: 0
+            Liczba błędów: 2
+        
+        Czas, który upłynął: 00:00:00.33
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "SDL/CMakeLists.txt:1682 (check_c_source_compiles)"
+    checks:
+      - "Performing Test HAVE_WINDOWS_GAMING_INPUT_H"
+    directories:
+      source: "C:/Users/Lenovo/tp_projekt_4/build/CMakeFiles/CMakeScratch/TryCompile-d1391a"
+      binary: "C:/Users/Lenovo/tp_projekt_4/build/CMakeFiles/CMakeScratch/TryCompile-d1391a"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od "
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/Lenovo/tp_projekt_4/SDL/cmake"
+    buildResult:
+      variable: "HAVE_WINDOWS_GAMING_INPUT_H"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Lenovo/tp_projekt_4/build/CMakeFiles/CMakeScratch/TryCompile-d1391a'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_788a4.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Wersja programu MSBuild 17.7.2+d6990bcfa dla .NET Framework
+        Kompilacja rozpoczęła się 28.05.2024 19:47:03.
+        
+        Projekt "C:\\Users\\Lenovo\\tp_projekt_4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-d1391a\\cmTC_788a4.vcxproj" w węźle 1 (domyślne elementy docelowe).
+        PrepareForBuild:
+          Tworzenie katalogu "cmTC_788a4.dir\\Debug\\".
+          Tworzenie katalogu "C:\\Users\\Lenovo\\tp_projekt_4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-d1391a\\Debug\\".
+          Tworzenie katalogu "cmTC_788a4.dir\\Debug\\cmTC_788a4.tlog\\".
+        InitializeBuildStatus:
+          Trwa tworzenie "cmTC_788a4.dir\\Debug\\cmTC_788a4.tlog\\unsuccessfulbuild", ponieważ określono "AlwaysCreate".
+          Modyfikowanie "cmTC_788a4.dir\\Debug\\cmTC_788a4.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D HAVE_WINDOWS_GAMING_INPUT_H /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_788a4.dir\\Debug\\\\" /Fd"cmTC_788a4.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\Lenovo\\tp_projekt_4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-d1391a\\src.c"
+          Microsoft (R) C/C++ wersja kompilatora optymalizującego 19.37.32825 dla x64
+          src.c
+          Copyright (C) Microsoft Corporation. Wszystkie prawa zastrzeżone.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D HAVE_WINDOWS_GAMING_INPUT_H /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_788a4.dir\\Debug\\\\" /Fd"cmTC_788a4.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\Lenovo\\tp_projekt_4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-d1391a\\src.c"
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\Lenovo\\tp_projekt_4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-d1391a\\Debug\\cmTC_788a4.exe" /INCREMENTAL /ILK:"cmTC_788a4.dir\\Debug\\cmTC_788a4.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Lenovo/tp_projekt_4/build/CMakeFiles/CMakeScratch/TryCompile-d1391a/Debug/cmTC_788a4.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Lenovo/tp_projekt_4/build/CMakeFiles/CMakeScratch/TryCompile-d1391a/Debug/cmTC_788a4.lib" /MACHINE:X64  /machine:x64 cmTC_788a4.dir\\Debug\\src.obj
+          cmTC_788a4.vcxproj -> C:\\Users\\Lenovo\\tp_projekt_4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-d1391a\\Debug\\cmTC_788a4.exe
+        FinalizeBuildStatus:
+          Usuwanie pliku "cmTC_788a4.dir\\Debug\\cmTC_788a4.tlog\\unsuccessfulbuild".
+          Modyfikowanie "cmTC_788a4.dir\\Debug\\cmTC_788a4.tlog\\cmTC_788a4.lastbuildstate".
+        Kompilowanie projektu "C:\\Users\\Lenovo\\tp_projekt_4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-d1391a\\cmTC_788a4.vcxproj" wykonane (domyślne elementy docelowe).
+        
+        Kompilacja powiodła się.
+            Ostrzeżenia: 0
+            Liczba błędów: 0
+        
+        Czas, który upłynął: 00:00:00.94
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "SDL/CMakeLists.txt:1690 (check_include_file)"
+    checks:
+      - "Looking for tpcshrd.h"
+    directories:
+      source: "C:/Users/Lenovo/tp_projekt_4/build/CMakeFiles/CMakeScratch/TryCompile-01ro51"
+      binary: "C:/Users/Lenovo/tp_projekt_4/build/CMakeFiles/CMakeScratch/TryCompile-01ro51"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od "
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/Lenovo/tp_projekt_4/SDL/cmake"
+    buildResult:
+      variable: "HAVE_TPCSHRD_H"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Lenovo/tp_projekt_4/build/CMakeFiles/CMakeScratch/TryCompile-01ro51'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_a1ba7.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Wersja programu MSBuild 17.7.2+d6990bcfa dla .NET Framework
+        Kompilacja rozpoczęła się 28.05.2024 19:47:04.
+        
+        Projekt "C:\\Users\\Lenovo\\tp_projekt_4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-01ro51\\cmTC_a1ba7.vcxproj" w węźle 1 (domyślne elementy docelowe).
+        PrepareForBuild:
+          Tworzenie katalogu "cmTC_a1ba7.dir\\Debug\\".
+          Tworzenie katalogu "C:\\Users\\Lenovo\\tp_projekt_4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-01ro51\\Debug\\".
+          Tworzenie katalogu "cmTC_a1ba7.dir\\Debug\\cmTC_a1ba7.tlog\\".
+        InitializeBuildStatus:
+          Trwa tworzenie "cmTC_a1ba7.dir\\Debug\\cmTC_a1ba7.tlog\\unsuccessfulbuild", ponieważ określono "AlwaysCreate".
+          Modyfikowanie "cmTC_a1ba7.dir\\Debug\\cmTC_a1ba7.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_a1ba7.dir\\Debug\\\\" /Fd"cmTC_a1ba7.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\Lenovo\\tp_projekt_4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-01ro51\\CheckIncludeFile.c"
+          Microsoft (R) C/C++ wersja kompilatora optymalizującego 19.37.32825 dla x64
+          CheckIncludeFile.c
+          Copyright (C) Microsoft Corporation. Wszystkie prawa zastrzeżone.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_a1ba7.dir\\Debug\\\\" /Fd"cmTC_a1ba7.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\Lenovo\\tp_projekt_4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-01ro51\\CheckIncludeFile.c"
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\Lenovo\\tp_projekt_4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-01ro51\\Debug\\cmTC_a1ba7.exe" /INCREMENTAL /ILK:"cmTC_a1ba7.dir\\Debug\\cmTC_a1ba7.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Lenovo/tp_projekt_4/build/CMakeFiles/CMakeScratch/TryCompile-01ro51/Debug/cmTC_a1ba7.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Lenovo/tp_projekt_4/build/CMakeFiles/CMakeScratch/TryCompile-01ro51/Debug/cmTC_a1ba7.lib" /MACHINE:X64  /machine:x64 cmTC_a1ba7.dir\\Debug\\CheckIncludeFile.obj
+          cmTC_a1ba7.vcxproj -> C:\\Users\\Lenovo\\tp_projekt_4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-01ro51\\Debug\\cmTC_a1ba7.exe
+        FinalizeBuildStatus:
+          Usuwanie pliku "cmTC_a1ba7.dir\\Debug\\cmTC_a1ba7.tlog\\unsuccessfulbuild".
+          Modyfikowanie "cmTC_a1ba7.dir\\Debug\\cmTC_a1ba7.tlog\\cmTC_a1ba7.lastbuildstate".
+        Kompilowanie projektu "C:\\Users\\Lenovo\\tp_projekt_4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-01ro51\\cmTC_a1ba7.vcxproj" wykonane (domyślne elementy docelowe).
+        
+        Kompilacja powiodła się.
+            Ostrzeżenia: 0
+            Liczba błędów: 0
+        
+        Czas, który upłynął: 00:00:00.48
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "SDL/CMakeLists.txt:1691 (check_include_file)"
+    checks:
+      - "Looking for roapi.h"
+    directories:
+      source: "C:/Users/Lenovo/tp_projekt_4/build/CMakeFiles/CMakeScratch/TryCompile-0stkuu"
+      binary: "C:/Users/Lenovo/tp_projekt_4/build/CMakeFiles/CMakeScratch/TryCompile-0stkuu"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od "
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/Lenovo/tp_projekt_4/SDL/cmake"
+    buildResult:
+      variable: "HAVE_ROAPI_H"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Lenovo/tp_projekt_4/build/CMakeFiles/CMakeScratch/TryCompile-0stkuu'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_bb7f8.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Wersja programu MSBuild 17.7.2+d6990bcfa dla .NET Framework
+        Kompilacja rozpoczęła się 28.05.2024 19:47:05.
+        
+        Projekt "C:\\Users\\Lenovo\\tp_projekt_4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-0stkuu\\cmTC_bb7f8.vcxproj" w węźle 1 (domyślne elementy docelowe).
+        PrepareForBuild:
+          Tworzenie katalogu "cmTC_bb7f8.dir\\Debug\\".
+          Tworzenie katalogu "C:\\Users\\Lenovo\\tp_projekt_4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-0stkuu\\Debug\\".
+          Tworzenie katalogu "cmTC_bb7f8.dir\\Debug\\cmTC_bb7f8.tlog\\".
+        InitializeBuildStatus:
+          Trwa tworzenie "cmTC_bb7f8.dir\\Debug\\cmTC_bb7f8.tlog\\unsuccessfulbuild", ponieważ określono "AlwaysCreate".
+          Modyfikowanie "cmTC_bb7f8.dir\\Debug\\cmTC_bb7f8.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_bb7f8.dir\\Debug\\\\" /Fd"cmTC_bb7f8.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\Lenovo\\tp_projekt_4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-0stkuu\\CheckIncludeFile.c"
+          Microsoft (R) C/C++ wersja kompilatora optymalizującego 19.37.32825 dla x64
+          CheckIncludeFile.c
+          Copyright (C) Microsoft Corporation. Wszystkie prawa zastrzeżone.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_bb7f8.dir\\Debug\\\\" /Fd"cmTC_bb7f8.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\Lenovo\\tp_projekt_4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-0stkuu\\CheckIncludeFile.c"
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\Lenovo\\tp_projekt_4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-0stkuu\\Debug\\cmTC_bb7f8.exe" /INCREMENTAL /ILK:"cmTC_bb7f8.dir\\Debug\\cmTC_bb7f8.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Lenovo/tp_projekt_4/build/CMakeFiles/CMakeScratch/TryCompile-0stkuu/Debug/cmTC_bb7f8.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Lenovo/tp_projekt_4/build/CMakeFiles/CMakeScratch/TryCompile-0stkuu/Debug/cmTC_bb7f8.lib" /MACHINE:X64  /machine:x64 cmTC_bb7f8.dir\\Debug\\CheckIncludeFile.obj
+          cmTC_bb7f8.vcxproj -> C:\\Users\\Lenovo\\tp_projekt_4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-0stkuu\\Debug\\cmTC_bb7f8.exe
+        FinalizeBuildStatus:
+          Usuwanie pliku "cmTC_bb7f8.dir\\Debug\\cmTC_bb7f8.tlog\\unsuccessfulbuild".
+          Modyfikowanie "cmTC_bb7f8.dir\\Debug\\cmTC_bb7f8.tlog\\cmTC_bb7f8.lastbuildstate".
+        Kompilowanie projektu "C:\\Users\\Lenovo\\tp_projekt_4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-0stkuu\\cmTC_bb7f8.vcxproj" wykonane (domyślne elementy docelowe).
+        
+        Kompilacja powiodła się.
+            Ostrzeżenia: 0
+            Liczba błędów: 0
+        
+        Czas, który upłynął: 00:00:00.48
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "SDL/CMakeLists.txt:1692 (check_include_file)"
+    checks:
+      - "Looking for mmdeviceapi.h"
+    directories:
+      source: "C:/Users/Lenovo/tp_projekt_4/build/CMakeFiles/CMakeScratch/TryCompile-2wbc07"
+      binary: "C:/Users/Lenovo/tp_projekt_4/build/CMakeFiles/CMakeScratch/TryCompile-2wbc07"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od "
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/Lenovo/tp_projekt_4/SDL/cmake"
+    buildResult:
+      variable: "HAVE_MMDEVICEAPI_H"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Lenovo/tp_projekt_4/build/CMakeFiles/CMakeScratch/TryCompile-2wbc07'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_40ba3.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Wersja programu MSBuild 17.7.2+d6990bcfa dla .NET Framework
+        Kompilacja rozpoczęła się 28.05.2024 19:47:06.
+        
+        Projekt "C:\\Users\\Lenovo\\tp_projekt_4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-2wbc07\\cmTC_40ba3.vcxproj" w węźle 1 (domyślne elementy docelowe).
+        PrepareForBuild:
+          Tworzenie katalogu "cmTC_40ba3.dir\\Debug\\".
+          Tworzenie katalogu "C:\\Users\\Lenovo\\tp_projekt_4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-2wbc07\\Debug\\".
+          Tworzenie katalogu "cmTC_40ba3.dir\\Debug\\cmTC_40ba3.tlog\\".
+        InitializeBuildStatus:
+          Trwa tworzenie "cmTC_40ba3.dir\\Debug\\cmTC_40ba3.tlog\\unsuccessfulbuild", ponieważ określono "AlwaysCreate".
+          Modyfikowanie "cmTC_40ba3.dir\\Debug\\cmTC_40ba3.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_40ba3.dir\\Debug\\\\" /Fd"cmTC_40ba3.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\Lenovo\\tp_projekt_4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-2wbc07\\CheckIncludeFile.c"
+          Microsoft (R) C/C++ wersja kompilatora optymalizującego 19.37.32825 dla x64
+          Copyright (C) Microsoft Corporation. Wszystkie prawa zastrzeżone.
+          CheckIncludeFile.c
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_40ba3.dir\\Debug\\\\" /Fd"cmTC_40ba3.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\Lenovo\\tp_projekt_4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-2wbc07\\CheckIncludeFile.c"
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\Lenovo\\tp_projekt_4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-2wbc07\\Debug\\cmTC_40ba3.exe" /INCREMENTAL /ILK:"cmTC_40ba3.dir\\Debug\\cmTC_40ba3.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Lenovo/tp_projekt_4/build/CMakeFiles/CMakeScratch/TryCompile-2wbc07/Debug/cmTC_40ba3.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Lenovo/tp_projekt_4/build/CMakeFiles/CMakeScratch/TryCompile-2wbc07/Debug/cmTC_40ba3.lib" /MACHINE:X64  /machine:x64 cmTC_40ba3.dir\\Debug\\CheckIncludeFile.obj
+          cmTC_40ba3.vcxproj -> C:\\Users\\Lenovo\\tp_projekt_4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-2wbc07\\Debug\\cmTC_40ba3.exe
+        FinalizeBuildStatus:
+          Usuwanie pliku "cmTC_40ba3.dir\\Debug\\cmTC_40ba3.tlog\\unsuccessfulbuild".
+          Modyfikowanie "cmTC_40ba3.dir\\Debug\\cmTC_40ba3.tlog\\cmTC_40ba3.lastbuildstate".
+        Kompilowanie projektu "C:\\Users\\Lenovo\\tp_projekt_4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-2wbc07\\cmTC_40ba3.vcxproj" wykonane (domyślne elementy docelowe).
+        
+        Kompilacja powiodła się.
+            Ostrzeżenia: 0
+            Liczba błędów: 0
+        
+        Czas, który upłynął: 00:00:00.50
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "SDL/CMakeLists.txt:1693 (check_include_file)"
+    checks:
+      - "Looking for audioclient.h"
+    directories:
+      source: "C:/Users/Lenovo/tp_projekt_4/build/CMakeFiles/CMakeScratch/TryCompile-yftnk9"
+      binary: "C:/Users/Lenovo/tp_projekt_4/build/CMakeFiles/CMakeScratch/TryCompile-yftnk9"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od "
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/Lenovo/tp_projekt_4/SDL/cmake"
+    buildResult:
+      variable: "HAVE_AUDIOCLIENT_H"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Lenovo/tp_projekt_4/build/CMakeFiles/CMakeScratch/TryCompile-yftnk9'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_a7418.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Wersja programu MSBuild 17.7.2+d6990bcfa dla .NET Framework
+        Kompilacja rozpoczęła się 28.05.2024 19:47:06.
+        
+        Projekt "C:\\Users\\Lenovo\\tp_projekt_4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-yftnk9\\cmTC_a7418.vcxproj" w węźle 1 (domyślne elementy docelowe).
+        PrepareForBuild:
+          Tworzenie katalogu "cmTC_a7418.dir\\Debug\\".
+          Tworzenie katalogu "C:\\Users\\Lenovo\\tp_projekt_4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-yftnk9\\Debug\\".
+          Tworzenie katalogu "cmTC_a7418.dir\\Debug\\cmTC_a7418.tlog\\".
+        InitializeBuildStatus:
+          Trwa tworzenie "cmTC_a7418.dir\\Debug\\cmTC_a7418.tlog\\unsuccessfulbuild", ponieważ określono "AlwaysCreate".
+          Modyfikowanie "cmTC_a7418.dir\\Debug\\cmTC_a7418.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_a7418.dir\\Debug\\\\" /Fd"cmTC_a7418.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\Lenovo\\tp_projekt_4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-yftnk9\\CheckIncludeFile.c"
+          Microsoft (R) C/C++ wersja kompilatora optymalizującego 19.37.32825 dla x64
+          Copyright (C) Microsoft Corporation. Wszystkie prawa zastrzeżone.
+          CheckIncludeFile.c
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_a7418.dir\\Debug\\\\" /Fd"cmTC_a7418.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\Lenovo\\tp_projekt_4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-yftnk9\\CheckIncludeFile.c"
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\Lenovo\\tp_projekt_4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-yftnk9\\Debug\\cmTC_a7418.exe" /INCREMENTAL /ILK:"cmTC_a7418.dir\\Debug\\cmTC_a7418.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Lenovo/tp_projekt_4/build/CMakeFiles/CMakeScratch/TryCompile-yftnk9/Debug/cmTC_a7418.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Lenovo/tp_projekt_4/build/CMakeFiles/CMakeScratch/TryCompile-yftnk9/Debug/cmTC_a7418.lib" /MACHINE:X64  /machine:x64 cmTC_a7418.dir\\Debug\\CheckIncludeFile.obj
+          cmTC_a7418.vcxproj -> C:\\Users\\Lenovo\\tp_projekt_4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-yftnk9\\Debug\\cmTC_a7418.exe
+        FinalizeBuildStatus:
+          Usuwanie pliku "cmTC_a7418.dir\\Debug\\cmTC_a7418.tlog\\unsuccessfulbuild".
+          Modyfikowanie "cmTC_a7418.dir\\Debug\\cmTC_a7418.tlog\\cmTC_a7418.lastbuildstate".
+        Kompilowanie projektu "C:\\Users\\Lenovo\\tp_projekt_4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-yftnk9\\cmTC_a7418.vcxproj" wykonane (domyślne elementy docelowe).
+        
+        Kompilacja powiodła się.
+            Ostrzeżenia: 0
+            Liczba błędów: 0
+        
+        Czas, który upłynął: 00:00:00.50
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "SDL/CMakeLists.txt:1694 (check_include_file)"
+    checks:
+      - "Looking for sensorsapi.h"
+    directories:
+      source: "C:/Users/Lenovo/tp_projekt_4/build/CMakeFiles/CMakeScratch/TryCompile-xvsdij"
+      binary: "C:/Users/Lenovo/tp_projekt_4/build/CMakeFiles/CMakeScratch/TryCompile-xvsdij"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od "
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/Lenovo/tp_projekt_4/SDL/cmake"
+    buildResult:
+      variable: "HAVE_SENSORSAPI_H"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Lenovo/tp_projekt_4/build/CMakeFiles/CMakeScratch/TryCompile-xvsdij'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_2894f.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Wersja programu MSBuild 17.7.2+d6990bcfa dla .NET Framework
+        Kompilacja rozpoczęła się 28.05.2024 19:47:07.
+        
+        Projekt "C:\\Users\\Lenovo\\tp_projekt_4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xvsdij\\cmTC_2894f.vcxproj" w węźle 1 (domyślne elementy docelowe).
+        PrepareForBuild:
+          Tworzenie katalogu "cmTC_2894f.dir\\Debug\\".
+          Tworzenie katalogu "C:\\Users\\Lenovo\\tp_projekt_4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xvsdij\\Debug\\".
+          Tworzenie katalogu "cmTC_2894f.dir\\Debug\\cmTC_2894f.tlog\\".
+        InitializeBuildStatus:
+          Trwa tworzenie "cmTC_2894f.dir\\Debug\\cmTC_2894f.tlog\\unsuccessfulbuild", ponieważ określono "AlwaysCreate".
+          Modyfikowanie "cmTC_2894f.dir\\Debug\\cmTC_2894f.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_2894f.dir\\Debug\\\\" /Fd"cmTC_2894f.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\Lenovo\\tp_projekt_4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xvsdij\\CheckIncludeFile.c"
+          Microsoft (R) C/C++ wersja kompilatora optymalizującego 19.37.32825 dla x64
+          Copyright (C) Microsoft Corporation. Wszystkie prawa zastrzeżone.
+          CheckIncludeFile.c
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_2894f.dir\\Debug\\\\" /Fd"cmTC_2894f.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\Lenovo\\tp_projekt_4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xvsdij\\CheckIncludeFile.c"
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\Lenovo\\tp_projekt_4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xvsdij\\Debug\\cmTC_2894f.exe" /INCREMENTAL /ILK:"cmTC_2894f.dir\\Debug\\cmTC_2894f.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Lenovo/tp_projekt_4/build/CMakeFiles/CMakeScratch/TryCompile-xvsdij/Debug/cmTC_2894f.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Lenovo/tp_projekt_4/build/CMakeFiles/CMakeScratch/TryCompile-xvsdij/Debug/cmTC_2894f.lib" /MACHINE:X64  /machine:x64 cmTC_2894f.dir\\Debug\\CheckIncludeFile.obj
+          cmTC_2894f.vcxproj -> C:\\Users\\Lenovo\\tp_projekt_4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xvsdij\\Debug\\cmTC_2894f.exe
+        FinalizeBuildStatus:
+          Usuwanie pliku "cmTC_2894f.dir\\Debug\\cmTC_2894f.tlog\\unsuccessfulbuild".
+          Modyfikowanie "cmTC_2894f.dir\\Debug\\cmTC_2894f.tlog\\cmTC_2894f.lastbuildstate".
+        Kompilowanie projektu "C:\\Users\\Lenovo\\tp_projekt_4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xvsdij\\cmTC_2894f.vcxproj" wykonane (domyślne elementy docelowe).
+        
+        Kompilacja powiodła się.
+            Ostrzeżenia: 0
+            Liczba błędów: 0
+        
+        Czas, który upłynął: 00:00:00.51
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "SDL/CMakeLists.txt:1695 (check_include_file)"
+    checks:
+      - "Looking for shellscalingapi.h"
+    directories:
+      source: "C:/Users/Lenovo/tp_projekt_4/build/CMakeFiles/CMakeScratch/TryCompile-tofnmv"
+      binary: "C:/Users/Lenovo/tp_projekt_4/build/CMakeFiles/CMakeScratch/TryCompile-tofnmv"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od "
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/Lenovo/tp_projekt_4/SDL/cmake"
+    buildResult:
+      variable: "HAVE_SHELLSCALINGAPI_H"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Lenovo/tp_projekt_4/build/CMakeFiles/CMakeScratch/TryCompile-tofnmv'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_035ad.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Wersja programu MSBuild 17.7.2+d6990bcfa dla .NET Framework
+        Kompilacja rozpoczęła się 28.05.2024 19:47:08.
+        
+        Projekt "C:\\Users\\Lenovo\\tp_projekt_4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-tofnmv\\cmTC_035ad.vcxproj" w węźle 1 (domyślne elementy docelowe).
+        PrepareForBuild:
+          Tworzenie katalogu "cmTC_035ad.dir\\Debug\\".
+          Tworzenie katalogu "C:\\Users\\Lenovo\\tp_projekt_4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-tofnmv\\Debug\\".
+          Tworzenie katalogu "cmTC_035ad.dir\\Debug\\cmTC_035ad.tlog\\".
+        InitializeBuildStatus:
+          Trwa tworzenie "cmTC_035ad.dir\\Debug\\cmTC_035ad.tlog\\unsuccessfulbuild", ponieważ określono "AlwaysCreate".
+          Modyfikowanie "cmTC_035ad.dir\\Debug\\cmTC_035ad.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_035ad.dir\\Debug\\\\" /Fd"cmTC_035ad.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\Lenovo\\tp_projekt_4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-tofnmv\\CheckIncludeFile.c"
+          Microsoft (R) C/C++ wersja kompilatora optymalizującego 19.37.32825 dla x64
+          Copyright (C) Microsoft Corporation. Wszystkie prawa zastrzeżone.
+          CheckIncludeFile.c
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_035ad.dir\\Debug\\\\" /Fd"cmTC_035ad.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\Lenovo\\tp_projekt_4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-tofnmv\\CheckIncludeFile.c"
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\Lenovo\\tp_projekt_4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-tofnmv\\Debug\\cmTC_035ad.exe" /INCREMENTAL /ILK:"cmTC_035ad.dir\\Debug\\cmTC_035ad.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Lenovo/tp_projekt_4/build/CMakeFiles/CMakeScratch/TryCompile-tofnmv/Debug/cmTC_035ad.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Lenovo/tp_projekt_4/build/CMakeFiles/CMakeScratch/TryCompile-tofnmv/Debug/cmTC_035ad.lib" /MACHINE:X64  /machine:x64 cmTC_035ad.dir\\Debug\\CheckIncludeFile.obj
+          cmTC_035ad.vcxproj -> C:\\Users\\Lenovo\\tp_projekt_4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-tofnmv\\Debug\\cmTC_035ad.exe
+        FinalizeBuildStatus:
+          Usuwanie pliku "cmTC_035ad.dir\\Debug\\cmTC_035ad.tlog\\unsuccessfulbuild".
+          Modyfikowanie "cmTC_035ad.dir\\Debug\\cmTC_035ad.tlog\\cmTC_035ad.lastbuildstate".
+        Kompilowanie projektu "C:\\Users\\Lenovo\\tp_projekt_4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-tofnmv\\cmTC_035ad.vcxproj" wykonane (domyślne elementy docelowe).
+        
+        Kompilacja powiodła się.
+            Ostrzeżenia: 0
+            Liczba błędów: 0
+        
+        Czas, który upłynął: 00:00:00.50
+        
+      exitCode: 0
+...

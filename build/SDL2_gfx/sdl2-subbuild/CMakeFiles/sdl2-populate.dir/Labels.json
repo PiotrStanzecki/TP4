@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Users/Lenovo/tp_projekt_4/build/SDL2_gfx/sdl2-subbuild/CMakeFiles/sdl2-populate"
+		},
+		{
+			"file" : "C:/Users/Lenovo/tp_projekt_4/build/SDL2_gfx/sdl2-subbuild/CMakeFiles/93649135698a55711ae49903a80a18ba/sdl2-populate.rule"
+		},
+		{
+			"file" : "C:/Users/Lenovo/tp_projekt_4/build/SDL2_gfx/sdl2-subbuild/CMakeFiles/90e183d912045ae7679f908d75df2164/sdl2-populate-complete.rule"
+		},
+		{
+			"file" : "C:/Users/Lenovo/tp_projekt_4/build/SDL2_gfx/sdl2-subbuild/CMakeFiles/e65b32ecedd25d9db0073a831bd37b3e/sdl2-populate-build.rule"
+		},
+		{
+			"file" : "C:/Users/Lenovo/tp_projekt_4/build/SDL2_gfx/sdl2-subbuild/CMakeFiles/e65b32ecedd25d9db0073a831bd37b3e/sdl2-populate-configure.rule"
+		},
+		{
+			"file" : "C:/Users/Lenovo/tp_projekt_4/build/SDL2_gfx/sdl2-subbuild/CMakeFiles/e65b32ecedd25d9db0073a831bd37b3e/sdl2-populate-download.rule"
+		},
+		{
+			"file" : "C:/Users/Lenovo/tp_projekt_4/build/SDL2_gfx/sdl2-subbuild/CMakeFiles/e65b32ecedd25d9db0073a831bd37b3e/sdl2-populate-install.rule"
+		},
+		{
+			"file" : "C:/Users/Lenovo/tp_projekt_4/build/SDL2_gfx/sdl2-subbuild/CMakeFiles/e65b32ecedd25d9db0073a831bd37b3e/sdl2-populate-mkdir.rule"
+		},
+		{
+			"file" : "C:/Users/Lenovo/tp_projekt_4/build/SDL2_gfx/sdl2-subbuild/CMakeFiles/e65b32ecedd25d9db0073a831bd37b3e/sdl2-populate-patch.rule"
+		},
+		{
+			"file" : "C:/Users/Lenovo/tp_projekt_4/build/SDL2_gfx/sdl2-subbuild/CMakeFiles/e65b32ecedd25d9db0073a831bd37b3e/sdl2-populate-test.rule"
+		},
+		{
+			"file" : "C:/Users/Lenovo/tp_projekt_4/build/SDL2_gfx/sdl2-subbuild/CMakeFiles/e65b32ecedd25d9db0073a831bd37b3e/sdl2-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"sdl2-populate"
+		],
+		"name" : "sdl2-populate"
+	}
+}
