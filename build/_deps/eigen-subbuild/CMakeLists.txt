@@ -20,8 +20,8 @@ project(eigen-populate NONE)
 include(ExternalProject)
 ExternalProject_Add(eigen-populate
                      "UPDATE_DISCONNECTED" "False" "DOWNLOAD_EXTRACT_TIMESTAMP" "FALSE" "EXTERNALPROJECT_INTERNAL_ARGUMENT_SEPARATOR" "URL" "https://gitlab.com/libeigen/eigen/-/archive/3.4.0/eigen-3.4.0.tar.gz"
-                    SOURCE_DIR          "C:/Users/Lenovo/tp_projekt_4/build/_deps/eigen-src"
-                    BINARY_DIR          "C:/Users/Lenovo/tp_projekt_4/build/_deps/eigen-build"
+                    SOURCE_DIR          "C:/Users/Lenovo/Documents/GitHub/TP4/build/_deps/eigen-src"
+                    BINARY_DIR          "C:/Users/Lenovo/Documents/GitHub/TP4/build/_deps/eigen-build"
                     CONFIGURE_COMMAND   ""
                     BUILD_COMMAND       ""
                     INSTALL_COMMAND     ""

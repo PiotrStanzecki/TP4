@@ -1,8 +1,8 @@
-if (NOT EXISTS "C:/Users/Lenovo/tp_projekt_4/build/install_manifest.txt")
-    message(FATAL_ERROR "Cannot find install manifest: \"C:/Users/Lenovo/tp_projekt_4/build/install_manifest.txt\"")
-endif(NOT EXISTS "C:/Users/Lenovo/tp_projekt_4/build/install_manifest.txt")
+if (NOT EXISTS "C:/Users/Lenovo/Documents/GitHub/TP4/build/install_manifest.txt")
+    message(FATAL_ERROR "Cannot find install manifest: \"C:/Users/Lenovo/Documents/GitHub/TP4/build/install_manifest.txt\"")
+endif(NOT EXISTS "C:/Users/Lenovo/Documents/GitHub/TP4/build/install_manifest.txt")
 
-file(READ "C:/Users/Lenovo/tp_projekt_4/build/install_manifest.txt" files)
+file(READ "C:/Users/Lenovo/Documents/GitHub/TP4/build/install_manifest.txt" files)
 string(REGEX REPLACE "\n" ";" files "${files}")
 foreach (file ${files})
     message(STATUS "Uninstalling \"$ENV{DESTDIR}${file}\"")

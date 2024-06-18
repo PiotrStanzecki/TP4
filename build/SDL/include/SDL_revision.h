@@ -1,4 +1,4 @@
-#define SDL_REVISION "https://github.com/marekjg/tp_projekt_4@295d2337809a02136c9c11430e152c5ddb508443"
+#define SDL_REVISION "https://github.com/PiotrStanzecki/TP4.git@4e180031554f62d40fca3e7cff402c5dc911a580"
 #define SDL_REVISION_NUMBER 0
 
 #ifndef SDL_REVISION

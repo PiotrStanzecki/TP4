@@ -20,8 +20,8 @@ project(sdl2-populate NONE)
 include(ExternalProject)
 ExternalProject_Add(sdl2-populate
                      "URL" "https://github.com/libsdl-org/SDL/releases/download/release-2.24.2/SDL2-2.24.2.zip" "URL_HASH" "SHA256=7fae98ac4e7b39eb2511fc27c2e84b220ac69b5296ff41f833b967c891f9d2ac"
-                    SOURCE_DIR          "C:/Users/Lenovo/tp_projekt_4/build/SDL2_gfx/SDL-2.24.2"
-                    BINARY_DIR          "C:/Users/Lenovo/tp_projekt_4/build/SDL2_gfx/sdl2-build"
+                    SOURCE_DIR          "C:/Users/Lenovo/Documents/GitHub/TP4/build/SDL2_gfx/SDL-2.24.2"
+                    BINARY_DIR          "C:/Users/Lenovo/Documents/GitHub/TP4/build/SDL2_gfx/sdl2-build"
                     CONFIGURE_COMMAND   ""
                     BUILD_COMMAND       ""
                     INSTALL_COMMAND     ""

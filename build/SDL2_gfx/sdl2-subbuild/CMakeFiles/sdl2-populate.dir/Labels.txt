@@ -1,14 +1,14 @@
 # Target labels
  sdl2-populate
 # Source files and their labels
-C:/Users/Lenovo/tp_projekt_4/build/SDL2_gfx/sdl2-subbuild/CMakeFiles/sdl2-populate
-C:/Users/Lenovo/tp_projekt_4/build/SDL2_gfx/sdl2-subbuild/CMakeFiles/93649135698a55711ae49903a80a18ba/sdl2-populate.rule
-C:/Users/Lenovo/tp_projekt_4/build/SDL2_gfx/sdl2-subbuild/CMakeFiles/90e183d912045ae7679f908d75df2164/sdl2-populate-complete.rule
-C:/Users/Lenovo/tp_projekt_4/build/SDL2_gfx/sdl2-subbuild/CMakeFiles/e65b32ecedd25d9db0073a831bd37b3e/sdl2-populate-build.rule
-C:/Users/Lenovo/tp_projekt_4/build/SDL2_gfx/sdl2-subbuild/CMakeFiles/e65b32ecedd25d9db0073a831bd37b3e/sdl2-populate-configure.rule
-C:/Users/Lenovo/tp_projekt_4/build/SDL2_gfx/sdl2-subbuild/CMakeFiles/e65b32ecedd25d9db0073a831bd37b3e/sdl2-populate-download.rule
-C:/Users/Lenovo/tp_projekt_4/build/SDL2_gfx/sdl2-subbuild/CMakeFiles/e65b32ecedd25d9db0073a831bd37b3e/sdl2-populate-install.rule
-C:/Users/Lenovo/tp_projekt_4/build/SDL2_gfx/sdl2-subbuild/CMakeFiles/e65b32ecedd25d9db0073a831bd37b3e/sdl2-populate-mkdir.rule
-C:/Users/Lenovo/tp_projekt_4/build/SDL2_gfx/sdl2-subbuild/CMakeFiles/e65b32ecedd25d9db0073a831bd37b3e/sdl2-populate-patch.rule
-C:/Users/Lenovo/tp_projekt_4/build/SDL2_gfx/sdl2-subbuild/CMakeFiles/e65b32ecedd25d9db0073a831bd37b3e/sdl2-populate-test.rule
-C:/Users/Lenovo/tp_projekt_4/build/SDL2_gfx/sdl2-subbuild/CMakeFiles/e65b32ecedd25d9db0073a831bd37b3e/sdl2-populate-update.rule
+C:/Users/Lenovo/Documents/GitHub/TP4/build/SDL2_gfx/sdl2-subbuild/CMakeFiles/sdl2-populate
+C:/Users/Lenovo/Documents/GitHub/TP4/build/SDL2_gfx/sdl2-subbuild/CMakeFiles/c70ca1345f5858340a95c81ca516c6fc/sdl2-populate.rule
+C:/Users/Lenovo/Documents/GitHub/TP4/build/SDL2_gfx/sdl2-subbuild/CMakeFiles/2d0d6a4b03813bca5d5b5b20d5f190a6/sdl2-populate-complete.rule
+C:/Users/Lenovo/Documents/GitHub/TP4/build/SDL2_gfx/sdl2-subbuild/CMakeFiles/4d2ebd05f489f7e0ea2a47bcac66c769/sdl2-populate-build.rule
+C:/Users/Lenovo/Documents/GitHub/TP4/build/SDL2_gfx/sdl2-subbuild/CMakeFiles/4d2ebd05f489f7e0ea2a47bcac66c769/sdl2-populate-configure.rule
+C:/Users/Lenovo/Documents/GitHub/TP4/build/SDL2_gfx/sdl2-subbuild/CMakeFiles/4d2ebd05f489f7e0ea2a47bcac66c769/sdl2-populate-download.rule
+C:/Users/Lenovo/Documents/GitHub/TP4/build/SDL2_gfx/sdl2-subbuild/CMakeFiles/4d2ebd05f489f7e0ea2a47bcac66c769/sdl2-populate-install.rule
+C:/Users/Lenovo/Documents/GitHub/TP4/build/SDL2_gfx/sdl2-subbuild/CMakeFiles/4d2ebd05f489f7e0ea2a47bcac66c769/sdl2-populate-mkdir.rule
+C:/Users/Lenovo/Documents/GitHub/TP4/build/SDL2_gfx/sdl2-subbuild/CMakeFiles/4d2ebd05f489f7e0ea2a47bcac66c769/sdl2-populate-patch.rule
+C:/Users/Lenovo/Documents/GitHub/TP4/build/SDL2_gfx/sdl2-subbuild/CMakeFiles/4d2ebd05f489f7e0ea2a47bcac66c769/sdl2-populate-test.rule
+C:/Users/Lenovo/Documents/GitHub/TP4/build/SDL2_gfx/sdl2-subbuild/CMakeFiles/4d2ebd05f489f7e0ea2a47bcac66c769/sdl2-populate-update.rule

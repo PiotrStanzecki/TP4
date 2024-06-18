@@ -14,6 +14,6 @@ C:/Program Files/CMake/share/cmake-3.29/Modules/FindThreads.cmake
 C:/Program Files/CMake/share/cmake-3.29/Modules/FindZLIB.cmake
 C:/Program Files/CMake/share/cmake-3.29/Modules/Internal/CheckSourceCompiles.cmake
 C:/Program Files/CMake/share/cmake-3.29/Modules/SelectLibraryConfigurations.cmake
-C:/Users/Lenovo/tp_projekt_4/matplotplusplus/cmake/FindFFTW.cmake
-C:/Users/Lenovo/tp_projekt_4/matplotplusplus/cmake/FindOpenCV.cmake
-C:/Users/Lenovo/tp_projekt_4/matplotplusplus/source/3rd_party/CMakeLists.txt
+C:/Users/Lenovo/Documents/GitHub/TP4/matplotplusplus/cmake/FindFFTW.cmake
+C:/Users/Lenovo/Documents/GitHub/TP4/matplotplusplus/cmake/FindOpenCV.cmake
+C:/Users/Lenovo/Documents/GitHub/TP4/matplotplusplus/source/3rd_party/CMakeLists.txt

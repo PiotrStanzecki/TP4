@@ -1,6 +1,6 @@
-^C:\USERS\LENOVO\TP_PROJEKT_4\BUILD\SDL2_GFX\SDL2-SUBBUILD\CMAKEFILES\93649135698A55711AE49903A80A18BA\GENERATE.STAMP.RULE
+^C:\USERS\LENOVO\DOCUMENTS\GITHUB\TP4\BUILD\SDL2_GFX\SDL2-SUBBUILD\CMAKEFILES\C70CA1345F5858340A95C81CA516C6FC\GENERATE.STAMP.RULE
 setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Lenovo/tp_projekt_4/build/SDL2_gfx/sdl2-subbuild -BC:/Users/Lenovo/tp_projekt_4/build/SDL2_gfx/sdl2-subbuild --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/Lenovo/tp_projekt_4/build/SDL2_gfx/sdl2-subbuild/sdl2-populate.sln
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Lenovo/Documents/GitHub/TP4/build/SDL2_gfx/sdl2-subbuild -BC:/Users/Lenovo/Documents/GitHub/TP4/build/SDL2_gfx/sdl2-subbuild --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/Lenovo/Documents/GitHub/TP4/build/SDL2_gfx/sdl2-subbuild/sdl2-populate.sln
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone

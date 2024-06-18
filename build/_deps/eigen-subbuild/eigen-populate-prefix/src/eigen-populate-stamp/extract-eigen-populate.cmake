@@ -5,8 +5,8 @@ cmake_minimum_required(VERSION 3.5)
 
 # Make file names absolute:
 #
-get_filename_component(filename "C:/Users/Lenovo/tp_projekt_4/build/_deps/eigen-subbuild/eigen-populate-prefix/src/eigen-3.4.0.tar.gz" ABSOLUTE)
-get_filename_component(directory "C:/Users/Lenovo/tp_projekt_4/build/_deps/eigen-src" ABSOLUTE)
+get_filename_component(filename "C:/Users/Lenovo/Documents/GitHub/TP4/build/_deps/eigen-subbuild/eigen-populate-prefix/src/eigen-3.4.0.tar.gz" ABSOLUTE)
+get_filename_component(directory "C:/Users/Lenovo/Documents/GitHub/TP4/build/_deps/eigen-src" ABSOLUTE)
 
 message(STATUS "extracting...
      src='${filename}'

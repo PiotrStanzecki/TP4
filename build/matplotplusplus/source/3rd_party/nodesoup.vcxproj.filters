@@ -1,48 +1,48 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="C:\Users\Lenovo\tp_projekt_4\matplotplusplus\source\3rd_party\nodesoup\src\algebra.cpp">
+    <ClCompile Include="C:\Users\Lenovo\Documents\GitHub\TP4\matplotplusplus\source\3rd_party\nodesoup\src\algebra.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Lenovo\tp_projekt_4\matplotplusplus\source\3rd_party\nodesoup\src\fruchterman_reingold.cpp">
+    <ClCompile Include="C:\Users\Lenovo\Documents\GitHub\TP4\matplotplusplus\source\3rd_party\nodesoup\src\fruchterman_reingold.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Lenovo\tp_projekt_4\matplotplusplus\source\3rd_party\nodesoup\src\kamada_kawai.cpp">
+    <ClCompile Include="C:\Users\Lenovo\Documents\GitHub\TP4\matplotplusplus\source\3rd_party\nodesoup\src\kamada_kawai.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Lenovo\tp_projekt_4\matplotplusplus\source\3rd_party\nodesoup\src\layout.cpp">
+    <ClCompile Include="C:\Users\Lenovo\Documents\GitHub\TP4\matplotplusplus\source\3rd_party\nodesoup\src\layout.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Lenovo\tp_projekt_4\matplotplusplus\source\3rd_party\nodesoup\src\nodesoup.cpp">
+    <ClCompile Include="C:\Users\Lenovo\Documents\GitHub\TP4\matplotplusplus\source\3rd_party\nodesoup\src\nodesoup.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="C:\Users\Lenovo\tp_projekt_4\matplotplusplus\source\3rd_party\nodesoup\src\algebra.hpp">
+    <ClInclude Include="C:\Users\Lenovo\Documents\GitHub\TP4\matplotplusplus\source\3rd_party\nodesoup\src\algebra.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Lenovo\tp_projekt_4\matplotplusplus\source\3rd_party\nodesoup\src\fruchterman_reingold.hpp">
+    <ClInclude Include="C:\Users\Lenovo\Documents\GitHub\TP4\matplotplusplus\source\3rd_party\nodesoup\src\fruchterman_reingold.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Lenovo\tp_projekt_4\matplotplusplus\source\3rd_party\nodesoup\src\kamada_kawai.hpp">
+    <ClInclude Include="C:\Users\Lenovo\Documents\GitHub\TP4\matplotplusplus\source\3rd_party\nodesoup\src\kamada_kawai.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Lenovo\tp_projekt_4\matplotplusplus\source\3rd_party\nodesoup\src\layout.hpp">
+    <ClInclude Include="C:\Users\Lenovo\Documents\GitHub\TP4\matplotplusplus\source\3rd_party\nodesoup\src\layout.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Lenovo\tp_projekt_4\matplotplusplus\source\3rd_party\nodesoup\include\nodesoup.hpp">
+    <ClInclude Include="C:\Users\Lenovo\Documents\GitHub\TP4\matplotplusplus\source\3rd_party\nodesoup\include\nodesoup.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\Lenovo\tp_projekt_4\matplotplusplus\source\3rd_party\CMakeLists.txt" />
+    <CustomBuild Include="C:\Users\Lenovo\Documents\GitHub\TP4\matplotplusplus\source\3rd_party\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Header Files">
-      <UniqueIdentifier>{D94129BD-77B8-3CB6-AC0A-B90BDAE3C750}</UniqueIdentifier>
+      <UniqueIdentifier>{A19857DC-B386-3B8D-ABA9-736CDF18403F}</UniqueIdentifier>
     </Filter>
     <Filter Include="Source Files">
-      <UniqueIdentifier>{7D77CC0E-82C8-3501-B6D9-1BF89F96E11B}</UniqueIdentifier>
+      <UniqueIdentifier>{D91DE37A-F6B9-3CA9-A675-81CD13C8A92E}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

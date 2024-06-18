@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/Lenovo/tp_projekt_4/SDL
+# Install script for directory: C:/Users/Lenovo/Documents/GitHub/TP4/SDL
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

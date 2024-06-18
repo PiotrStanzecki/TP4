@@ -1,6 +1,6 @@
-^C:\USERS\LENOVO\TP_PROJEKT_4\BUILD\CMAKEFILES\21AADF5ABF0595BCA7094CE476514E2E\GENERATE.STAMP.RULE
+^C:\USERS\LENOVO\DOCUMENTS\GITHUB\TP4\BUILD\CMAKEFILES\183F5FFB1848A107814296769B0A7A2F\GENERATE.STAMP.RULE
 setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Lenovo/tp_projekt_4 -BC:/Users/Lenovo/tp_projekt_4/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/Lenovo/tp_projekt_4/build/Projekt3.sln
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Lenovo/Documents/GitHub/TP4 -BC:/Users/Lenovo/Documents/GitHub/TP4/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/Lenovo/Documents/GitHub/TP4/build/Projekt3.sln
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone

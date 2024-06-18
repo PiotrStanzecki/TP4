@@ -1,25 +1,25 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="C:\Users\Lenovo\tp_projekt_4\PlanarQuadrotor\simulate.cpp">
+    <ClCompile Include="C:\Users\Lenovo\Documents\GitHub\TP4\PlanarQuadrotor\simulate.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Lenovo\tp_projekt_4\PlanarQuadrotor\planar_quadrotor.cpp">
+    <ClCompile Include="C:\Users\Lenovo\Documents\GitHub\TP4\PlanarQuadrotor\planar_quadrotor.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Lenovo\tp_projekt_4\PlanarQuadrotor\planar_quadrotor_visualizer.cpp">
+    <ClCompile Include="C:\Users\Lenovo\Documents\GitHub\TP4\PlanarQuadrotor\planar_quadrotor_visualizer.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Lenovo\tp_projekt_4\PlanarQuadrotor\lqr.cpp">
+    <ClCompile Include="C:\Users\Lenovo\Documents\GitHub\TP4\PlanarQuadrotor\lqr.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\Lenovo\tp_projekt_4\CMakeLists.txt" />
+    <CustomBuild Include="C:\Users\Lenovo\Documents\GitHub\TP4\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Source Files">
-      <UniqueIdentifier>{7D77CC0E-82C8-3501-B6D9-1BF89F96E11B}</UniqueIdentifier>
+      <UniqueIdentifier>{D91DE37A-F6B9-3CA9-A675-81CD13C8A92E}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

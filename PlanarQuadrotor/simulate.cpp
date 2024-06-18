@@ -186,11 +186,7 @@ int main(int argc, char* args[])
             float x2 = cx + 0.5f * line_length * cos(theta);
             float y2 = cy + 0.5f * line_length * sin(theta);
 
-            // Convert world coordinates to screen coordinates
-            int screen_x1 = static_cast<int>(x1 * 10); // Scale factor to fit within screen
-            int screen_y1 = static_cast<int>(y1 * 10);
-            int screen_x2 = static_cast<int>(x2 * 10);
-            int screen_y2 = static_cast<int>(y2 * 10);
+            
 
             // Draw the line
             SDL_SetRenderDrawColor(gRenderer.get(), 0x00, 0x00, 0x00, 0xFF); // Black color

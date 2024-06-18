@@ -1,6 +1,6 @@
-^C:\USERS\LENOVO\TP_PROJEKT_4\MATPLOTPLUSPLUS\SOURCE\3RD_PARTY\CMAKELISTS.TXT
+^C:\USERS\LENOVO\DOCUMENTS\GITHUB\TP4\MATPLOTPLUSPLUS\SOURCE\3RD_PARTY\CMAKELISTS.TXT
 setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Lenovo/tp_projekt_4 -BC:/Users/Lenovo/tp_projekt_4/build --check-stamp-file C:/Users/Lenovo/tp_projekt_4/build/matplotplusplus/source/3rd_party/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Lenovo/Documents/GitHub/TP4 -BC:/Users/Lenovo/Documents/GitHub/TP4/build --check-stamp-file C:/Users/Lenovo/Documents/GitHub/TP4/build/matplotplusplus/source/3rd_party/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone

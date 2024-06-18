@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/Lenovo/tp_projekt_4/matplotplusplus/source/3rd_party
+# Install script for directory: C:/Users/Lenovo/Documents/GitHub/TP4/matplotplusplus/source/3rd_party
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

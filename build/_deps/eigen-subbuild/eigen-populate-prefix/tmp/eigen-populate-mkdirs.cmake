@@ -4,19 +4,19 @@
 cmake_minimum_required(VERSION 3.5)
 
 file(MAKE_DIRECTORY
-  "C:/Users/Lenovo/tp_projekt_4/build/_deps/eigen-src"
-  "C:/Users/Lenovo/tp_projekt_4/build/_deps/eigen-build"
-  "C:/Users/Lenovo/tp_projekt_4/build/_deps/eigen-subbuild/eigen-populate-prefix"
-  "C:/Users/Lenovo/tp_projekt_4/build/_deps/eigen-subbuild/eigen-populate-prefix/tmp"
-  "C:/Users/Lenovo/tp_projekt_4/build/_deps/eigen-subbuild/eigen-populate-prefix/src/eigen-populate-stamp"
-  "C:/Users/Lenovo/tp_projekt_4/build/_deps/eigen-subbuild/eigen-populate-prefix/src"
-  "C:/Users/Lenovo/tp_projekt_4/build/_deps/eigen-subbuild/eigen-populate-prefix/src/eigen-populate-stamp"
+  "C:/Users/Lenovo/Documents/GitHub/TP4/build/_deps/eigen-src"
+  "C:/Users/Lenovo/Documents/GitHub/TP4/build/_deps/eigen-build"
+  "C:/Users/Lenovo/Documents/GitHub/TP4/build/_deps/eigen-subbuild/eigen-populate-prefix"
+  "C:/Users/Lenovo/Documents/GitHub/TP4/build/_deps/eigen-subbuild/eigen-populate-prefix/tmp"
+  "C:/Users/Lenovo/Documents/GitHub/TP4/build/_deps/eigen-subbuild/eigen-populate-prefix/src/eigen-populate-stamp"
+  "C:/Users/Lenovo/Documents/GitHub/TP4/build/_deps/eigen-subbuild/eigen-populate-prefix/src"
+  "C:/Users/Lenovo/Documents/GitHub/TP4/build/_deps/eigen-subbuild/eigen-populate-prefix/src/eigen-populate-stamp"
 )
 
 set(configSubDirs Debug)
 foreach(subDir IN LISTS configSubDirs)
-    file(MAKE_DIRECTORY "C:/Users/Lenovo/tp_projekt_4/build/_deps/eigen-subbuild/eigen-populate-prefix/src/eigen-populate-stamp/${subDir}")
+    file(MAKE_DIRECTORY "C:/Users/Lenovo/Documents/GitHub/TP4/build/_deps/eigen-subbuild/eigen-populate-prefix/src/eigen-populate-stamp/${subDir}")
 endforeach()
 if(cfgdir)
-  file(MAKE_DIRECTORY "C:/Users/Lenovo/tp_projekt_4/build/_deps/eigen-subbuild/eigen-populate-prefix/src/eigen-populate-stamp${cfgdir}") # cfgdir has leading slash
+  file(MAKE_DIRECTORY "C:/Users/Lenovo/Documents/GitHub/TP4/build/_deps/eigen-subbuild/eigen-populate-prefix/src/eigen-populate-stamp${cfgdir}") # cfgdir has leading slash
 endif()

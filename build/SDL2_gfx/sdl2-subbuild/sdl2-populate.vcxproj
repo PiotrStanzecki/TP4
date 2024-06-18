@@ -10,7 +10,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{85C0BE8C-12BA-3701-991D-35E0E90BEEFB}</ProjectGuid>
+    <ProjectGuid>{C0C41F39-EA33-3456-9973-F0377FD801AF}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
     <Platform>x64</Platform>
@@ -45,13 +45,13 @@
     </Midl>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\Lenovo\tp_projekt_4\build\SDL2_gfx\sdl2-subbuild\CMakeFiles\e65b32ecedd25d9db0073a831bd37b3e\sdl2-populate-mkdir.rule">
+    <CustomBuild Include="C:\Users\Lenovo\Documents\GitHub\TP4\build\SDL2_gfx\sdl2-subbuild\CMakeFiles\4d2ebd05f489f7e0ea2a47bcac66c769\sdl2-populate-mkdir.rule">
       <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</BuildInParallel>
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Creating directories for 'sdl2-populate'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -Dcfgdir=/Debug -P C:/Users/Lenovo/tp_projekt_4/build/SDL2_gfx/sdl2-subbuild/sdl2-populate-prefix/tmp/sdl2-populate-mkdirs.cmake
+"C:\Program Files\CMake\bin\cmake.exe" -Dcfgdir=/Debug -P C:/Users/Lenovo/Documents/GitHub/TP4/build/SDL2_gfx/sdl2-subbuild/sdl2-populate-prefix/tmp/sdl2-populate-mkdirs.cmake
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/Lenovo/tp_projekt_4/build/SDL2_gfx/sdl2-subbuild/sdl2-populate-prefix/src/sdl2-populate-stamp/Debug/sdl2-populate-mkdir
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/Lenovo/Documents/GitHub/TP4/build/SDL2_gfx/sdl2-subbuild/sdl2-populate-prefix/src/sdl2-populate-stamp/Debug/sdl2-populate-mkdir
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -60,25 +60,25 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Lenovo\tp_projekt_4\build\SDL2_gfx\sdl2-subbuild\sdl2-populate-prefix\src\sdl2-populate-stamp\Debug\sdl2-populate-mkdir</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Lenovo\Documents\GitHub\TP4\build\SDL2_gfx\sdl2-subbuild\sdl2-populate-prefix\src\sdl2-populate-stamp\Debug\sdl2-populate-mkdir</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\Lenovo\tp_projekt_4\build\SDL2_gfx\sdl2-subbuild\CMakeFiles\e65b32ecedd25d9db0073a831bd37b3e\sdl2-populate-download.rule">
+    <CustomBuild Include="C:\Users\Lenovo\Documents\GitHub\TP4\build\SDL2_gfx\sdl2-subbuild\CMakeFiles\4d2ebd05f489f7e0ea2a47bcac66c769\sdl2-populate-download.rule">
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Performing download step (download, verify and extract) for 'sdl2-populate'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-cd C:\Users\Lenovo\tp_projekt_4\build\SDL2_gfx
+cd C:\Users\Lenovo\Documents\GitHub\TP4\build\SDL2_gfx
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -P C:/Users/Lenovo/tp_projekt_4/build/SDL2_gfx/sdl2-subbuild/sdl2-populate-prefix/src/sdl2-populate-stamp/download-sdl2-populate.cmake
+"C:\Program Files\CMake\bin\cmake.exe" -P C:/Users/Lenovo/Documents/GitHub/TP4/build/SDL2_gfx/sdl2-subbuild/sdl2-populate-prefix/src/sdl2-populate-stamp/download-sdl2-populate.cmake
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -P C:/Users/Lenovo/tp_projekt_4/build/SDL2_gfx/sdl2-subbuild/sdl2-populate-prefix/src/sdl2-populate-stamp/verify-sdl2-populate.cmake
+"C:\Program Files\CMake\bin\cmake.exe" -P C:/Users/Lenovo/Documents/GitHub/TP4/build/SDL2_gfx/sdl2-subbuild/sdl2-populate-prefix/src/sdl2-populate-stamp/verify-sdl2-populate.cmake
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -P C:/Users/Lenovo/tp_projekt_4/build/SDL2_gfx/sdl2-subbuild/sdl2-populate-prefix/src/sdl2-populate-stamp/extract-sdl2-populate.cmake
+"C:\Program Files\CMake\bin\cmake.exe" -P C:/Users/Lenovo/Documents/GitHub/TP4/build/SDL2_gfx/sdl2-subbuild/sdl2-populate-prefix/src/sdl2-populate-stamp/extract-sdl2-populate.cmake
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/Lenovo/tp_projekt_4/build/SDL2_gfx/sdl2-subbuild/sdl2-populate-prefix/src/sdl2-populate-stamp/Debug/sdl2-populate-download
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/Lenovo/Documents/GitHub/TP4/build/SDL2_gfx/sdl2-subbuild/sdl2-populate-prefix/src/sdl2-populate-stamp/Debug/sdl2-populate-download
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -86,18 +86,18 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Lenovo\tp_projekt_4\build\SDL2_gfx\sdl2-subbuild\sdl2-populate-prefix\src\sdl2-populate-stamp\download-sdl2-populate.cmake;C:\Users\Lenovo\tp_projekt_4\build\SDL2_gfx\sdl2-subbuild\sdl2-populate-prefix\src\sdl2-populate-stamp\sdl2-populate-urlinfo.txt;C:\Users\Lenovo\tp_projekt_4\build\SDL2_gfx\sdl2-subbuild\sdl2-populate-prefix\src\sdl2-populate-stamp\Debug\sdl2-populate-mkdir;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Lenovo\tp_projekt_4\build\SDL2_gfx\sdl2-subbuild\sdl2-populate-prefix\src\sdl2-populate-stamp\Debug\sdl2-populate-download</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Lenovo\Documents\GitHub\TP4\build\SDL2_gfx\sdl2-subbuild\sdl2-populate-prefix\src\sdl2-populate-stamp\download-sdl2-populate.cmake;C:\Users\Lenovo\Documents\GitHub\TP4\build\SDL2_gfx\sdl2-subbuild\sdl2-populate-prefix\src\sdl2-populate-stamp\sdl2-populate-urlinfo.txt;C:\Users\Lenovo\Documents\GitHub\TP4\build\SDL2_gfx\sdl2-subbuild\sdl2-populate-prefix\src\sdl2-populate-stamp\Debug\sdl2-populate-mkdir;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Lenovo\Documents\GitHub\TP4\build\SDL2_gfx\sdl2-subbuild\sdl2-populate-prefix\src\sdl2-populate-stamp\Debug\sdl2-populate-download</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\Lenovo\tp_projekt_4\build\SDL2_gfx\sdl2-subbuild\CMakeFiles\e65b32ecedd25d9db0073a831bd37b3e\sdl2-populate-update.rule">
+    <CustomBuild Include="C:\Users\Lenovo\Documents\GitHub\TP4\build\SDL2_gfx\sdl2-subbuild\CMakeFiles\4d2ebd05f489f7e0ea2a47bcac66c769\sdl2-populate-update.rule">
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">No update step for 'sdl2-populate'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
 "C:\Program Files\CMake\bin\cmake.exe" -E echo_append
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/Lenovo/tp_projekt_4/build/SDL2_gfx/sdl2-subbuild/sdl2-populate-prefix/src/sdl2-populate-stamp/Debug/sdl2-populate-update
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/Lenovo/Documents/GitHub/TP4/build/SDL2_gfx/sdl2-subbuild/sdl2-populate-prefix/src/sdl2-populate-stamp/Debug/sdl2-populate-update
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -105,18 +105,18 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Lenovo\tp_projekt_4\build\SDL2_gfx\sdl2-subbuild\sdl2-populate-prefix\src\sdl2-populate-stamp\sdl2-populate-update-info.txt;C:\Users\Lenovo\tp_projekt_4\build\SDL2_gfx\sdl2-subbuild\sdl2-populate-prefix\src\sdl2-populate-stamp\Debug\sdl2-populate-download;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Lenovo\tp_projekt_4\build\SDL2_gfx\sdl2-subbuild\sdl2-populate-prefix\src\sdl2-populate-stamp\Debug\sdl2-populate-update</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Lenovo\Documents\GitHub\TP4\build\SDL2_gfx\sdl2-subbuild\sdl2-populate-prefix\src\sdl2-populate-stamp\sdl2-populate-update-info.txt;C:\Users\Lenovo\Documents\GitHub\TP4\build\SDL2_gfx\sdl2-subbuild\sdl2-populate-prefix\src\sdl2-populate-stamp\Debug\sdl2-populate-download;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Lenovo\Documents\GitHub\TP4\build\SDL2_gfx\sdl2-subbuild\sdl2-populate-prefix\src\sdl2-populate-stamp\Debug\sdl2-populate-update</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\Lenovo\tp_projekt_4\build\SDL2_gfx\sdl2-subbuild\CMakeFiles\e65b32ecedd25d9db0073a831bd37b3e\sdl2-populate-patch.rule">
+    <CustomBuild Include="C:\Users\Lenovo\Documents\GitHub\TP4\build\SDL2_gfx\sdl2-subbuild\CMakeFiles\4d2ebd05f489f7e0ea2a47bcac66c769\sdl2-populate-patch.rule">
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">No patch step for 'sdl2-populate'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
 "C:\Program Files\CMake\bin\cmake.exe" -E echo_append
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/Lenovo/tp_projekt_4/build/SDL2_gfx/sdl2-subbuild/sdl2-populate-prefix/src/sdl2-populate-stamp/Debug/sdl2-populate-patch
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/Lenovo/Documents/GitHub/TP4/build/SDL2_gfx/sdl2-subbuild/sdl2-populate-prefix/src/sdl2-populate-stamp/Debug/sdl2-populate-patch
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -124,23 +124,23 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Lenovo\tp_projekt_4\build\SDL2_gfx\sdl2-subbuild\sdl2-populate-prefix\src\sdl2-populate-stamp\sdl2-populate-patch-info.txt;C:\Users\Lenovo\tp_projekt_4\build\SDL2_gfx\sdl2-subbuild\sdl2-populate-prefix\src\sdl2-populate-stamp\Debug\sdl2-populate-update;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Lenovo\tp_projekt_4\build\SDL2_gfx\sdl2-subbuild\sdl2-populate-prefix\src\sdl2-populate-stamp\Debug\sdl2-populate-patch</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Lenovo\Documents\GitHub\TP4\build\SDL2_gfx\sdl2-subbuild\sdl2-populate-prefix\src\sdl2-populate-stamp\sdl2-populate-patch-info.txt;C:\Users\Lenovo\Documents\GitHub\TP4\build\SDL2_gfx\sdl2-subbuild\sdl2-populate-prefix\src\sdl2-populate-stamp\Debug\sdl2-populate-update;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Lenovo\Documents\GitHub\TP4\build\SDL2_gfx\sdl2-subbuild\sdl2-populate-prefix\src\sdl2-populate-stamp\Debug\sdl2-populate-patch</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\Lenovo\tp_projekt_4\build\SDL2_gfx\sdl2-subbuild\CMakeFiles\e65b32ecedd25d9db0073a831bd37b3e\sdl2-populate-configure.rule">
+    <CustomBuild Include="C:\Users\Lenovo\Documents\GitHub\TP4\build\SDL2_gfx\sdl2-subbuild\CMakeFiles\4d2ebd05f489f7e0ea2a47bcac66c769\sdl2-populate-configure.rule">
       <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</BuildInParallel>
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">No configure step for 'sdl2-populate'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-cd C:\Users\Lenovo\tp_projekt_4\build\SDL2_gfx\sdl2-build
+cd C:\Users\Lenovo\Documents\GitHub\TP4\build\SDL2_gfx\sdl2-build
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
 "C:\Program Files\CMake\bin\cmake.exe" -E echo_append
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/Lenovo/tp_projekt_4/build/SDL2_gfx/sdl2-subbuild/sdl2-populate-prefix/src/sdl2-populate-stamp/Debug/sdl2-populate-configure
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/Lenovo/Documents/GitHub/TP4/build/SDL2_gfx/sdl2-subbuild/sdl2-populate-prefix/src/sdl2-populate-stamp/Debug/sdl2-populate-configure
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -148,23 +148,23 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Lenovo\tp_projekt_4\build\SDL2_gfx\sdl2-subbuild\sdl2-populate-prefix\tmp\sdl2-populate-cfgcmd.txt;C:\Users\Lenovo\tp_projekt_4\build\SDL2_gfx\sdl2-subbuild\sdl2-populate-prefix\src\sdl2-populate-stamp\Debug\sdl2-populate-patch;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Lenovo\tp_projekt_4\build\SDL2_gfx\sdl2-subbuild\sdl2-populate-prefix\src\sdl2-populate-stamp\Debug\sdl2-populate-configure</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Lenovo\Documents\GitHub\TP4\build\SDL2_gfx\sdl2-subbuild\sdl2-populate-prefix\tmp\sdl2-populate-cfgcmd.txt;C:\Users\Lenovo\Documents\GitHub\TP4\build\SDL2_gfx\sdl2-subbuild\sdl2-populate-prefix\src\sdl2-populate-stamp\Debug\sdl2-populate-patch;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Lenovo\Documents\GitHub\TP4\build\SDL2_gfx\sdl2-subbuild\sdl2-populate-prefix\src\sdl2-populate-stamp\Debug\sdl2-populate-configure</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\Lenovo\tp_projekt_4\build\SDL2_gfx\sdl2-subbuild\CMakeFiles\e65b32ecedd25d9db0073a831bd37b3e\sdl2-populate-build.rule">
+    <CustomBuild Include="C:\Users\Lenovo\Documents\GitHub\TP4\build\SDL2_gfx\sdl2-subbuild\CMakeFiles\4d2ebd05f489f7e0ea2a47bcac66c769\sdl2-populate-build.rule">
       <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</BuildInParallel>
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">No build step for 'sdl2-populate'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-cd C:\Users\Lenovo\tp_projekt_4\build\SDL2_gfx\sdl2-build
+cd C:\Users\Lenovo\Documents\GitHub\TP4\build\SDL2_gfx\sdl2-build
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
 "C:\Program Files\CMake\bin\cmake.exe" -E echo_append
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/Lenovo/tp_projekt_4/build/SDL2_gfx/sdl2-subbuild/sdl2-populate-prefix/src/sdl2-populate-stamp/Debug/sdl2-populate-build
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/Lenovo/Documents/GitHub/TP4/build/SDL2_gfx/sdl2-subbuild/sdl2-populate-prefix/src/sdl2-populate-stamp/Debug/sdl2-populate-build
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -172,23 +172,23 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Lenovo\tp_projekt_4\build\SDL2_gfx\sdl2-subbuild\sdl2-populate-prefix\src\sdl2-populate-stamp\Debug\sdl2-populate-configure;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Lenovo\tp_projekt_4\build\SDL2_gfx\sdl2-subbuild\sdl2-populate-prefix\src\sdl2-populate-stamp\Debug\sdl2-populate-build</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Lenovo\Documents\GitHub\TP4\build\SDL2_gfx\sdl2-subbuild\sdl2-populate-prefix\src\sdl2-populate-stamp\Debug\sdl2-populate-configure;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Lenovo\Documents\GitHub\TP4\build\SDL2_gfx\sdl2-subbuild\sdl2-populate-prefix\src\sdl2-populate-stamp\Debug\sdl2-populate-build</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\Lenovo\tp_projekt_4\build\SDL2_gfx\sdl2-subbuild\CMakeFiles\e65b32ecedd25d9db0073a831bd37b3e\sdl2-populate-install.rule">
+    <CustomBuild Include="C:\Users\Lenovo\Documents\GitHub\TP4\build\SDL2_gfx\sdl2-subbuild\CMakeFiles\4d2ebd05f489f7e0ea2a47bcac66c769\sdl2-populate-install.rule">
       <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</BuildInParallel>
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">No install step for 'sdl2-populate'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-cd C:\Users\Lenovo\tp_projekt_4\build\SDL2_gfx\sdl2-build
+cd C:\Users\Lenovo\Documents\GitHub\TP4\build\SDL2_gfx\sdl2-build
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
 "C:\Program Files\CMake\bin\cmake.exe" -E echo_append
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/Lenovo/tp_projekt_4/build/SDL2_gfx/sdl2-subbuild/sdl2-populate-prefix/src/sdl2-populate-stamp/Debug/sdl2-populate-install
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/Lenovo/Documents/GitHub/TP4/build/SDL2_gfx/sdl2-subbuild/sdl2-populate-prefix/src/sdl2-populate-stamp/Debug/sdl2-populate-install
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -196,23 +196,23 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Lenovo\tp_projekt_4\build\SDL2_gfx\sdl2-subbuild\sdl2-populate-prefix\src\sdl2-populate-stamp\Debug\sdl2-populate-build;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Lenovo\tp_projekt_4\build\SDL2_gfx\sdl2-subbuild\sdl2-populate-prefix\src\sdl2-populate-stamp\Debug\sdl2-populate-install</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Lenovo\Documents\GitHub\TP4\build\SDL2_gfx\sdl2-subbuild\sdl2-populate-prefix\src\sdl2-populate-stamp\Debug\sdl2-populate-build;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Lenovo\Documents\GitHub\TP4\build\SDL2_gfx\sdl2-subbuild\sdl2-populate-prefix\src\sdl2-populate-stamp\Debug\sdl2-populate-install</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\Lenovo\tp_projekt_4\build\SDL2_gfx\sdl2-subbuild\CMakeFiles\e65b32ecedd25d9db0073a831bd37b3e\sdl2-populate-test.rule">
+    <CustomBuild Include="C:\Users\Lenovo\Documents\GitHub\TP4\build\SDL2_gfx\sdl2-subbuild\CMakeFiles\4d2ebd05f489f7e0ea2a47bcac66c769\sdl2-populate-test.rule">
       <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</BuildInParallel>
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">No test step for 'sdl2-populate'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-cd C:\Users\Lenovo\tp_projekt_4\build\SDL2_gfx\sdl2-build
+cd C:\Users\Lenovo\Documents\GitHub\TP4\build\SDL2_gfx\sdl2-build
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
 "C:\Program Files\CMake\bin\cmake.exe" -E echo_append
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/Lenovo/tp_projekt_4/build/SDL2_gfx/sdl2-subbuild/sdl2-populate-prefix/src/sdl2-populate-stamp/Debug/sdl2-populate-test
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/Lenovo/Documents/GitHub/TP4/build/SDL2_gfx/sdl2-subbuild/sdl2-populate-prefix/src/sdl2-populate-stamp/Debug/sdl2-populate-test
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -220,21 +220,21 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Lenovo\tp_projekt_4\build\SDL2_gfx\sdl2-subbuild\sdl2-populate-prefix\src\sdl2-populate-stamp\Debug\sdl2-populate-install;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Lenovo\tp_projekt_4\build\SDL2_gfx\sdl2-subbuild\sdl2-populate-prefix\src\sdl2-populate-stamp\Debug\sdl2-populate-test</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Lenovo\Documents\GitHub\TP4\build\SDL2_gfx\sdl2-subbuild\sdl2-populate-prefix\src\sdl2-populate-stamp\Debug\sdl2-populate-install;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Lenovo\Documents\GitHub\TP4\build\SDL2_gfx\sdl2-subbuild\sdl2-populate-prefix\src\sdl2-populate-stamp\Debug\sdl2-populate-test</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\Lenovo\tp_projekt_4\build\SDL2_gfx\sdl2-subbuild\CMakeFiles\90e183d912045ae7679f908d75df2164\sdl2-populate-complete.rule">
+    <CustomBuild Include="C:\Users\Lenovo\Documents\GitHub\TP4\build\SDL2_gfx\sdl2-subbuild\CMakeFiles\2d0d6a4b03813bca5d5b5b20d5f190a6\sdl2-populate-complete.rule">
       <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</BuildInParallel>
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Completed 'sdl2-populate'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/Lenovo/tp_projekt_4/build/SDL2_gfx/sdl2-subbuild/CMakeFiles/Debug
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/Lenovo/Documents/GitHub/TP4/build/SDL2_gfx/sdl2-subbuild/CMakeFiles/Debug
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/Lenovo/tp_projekt_4/build/SDL2_gfx/sdl2-subbuild/CMakeFiles/Debug/sdl2-populate-complete
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/Lenovo/Documents/GitHub/TP4/build/SDL2_gfx/sdl2-subbuild/CMakeFiles/Debug/sdl2-populate-complete
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/Lenovo/tp_projekt_4/build/SDL2_gfx/sdl2-subbuild/sdl2-populate-prefix/src/sdl2-populate-stamp/Debug/sdl2-populate-done
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/Lenovo/Documents/GitHub/TP4/build/SDL2_gfx/sdl2-subbuild/sdl2-populate-prefix/src/sdl2-populate-stamp/Debug/sdl2-populate-done
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -242,13 +242,13 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Lenovo\tp_projekt_4\build\SDL2_gfx\sdl2-subbuild\sdl2-populate-prefix\src\sdl2-populate-stamp\Debug\sdl2-populate-install;C:\Users\Lenovo\tp_projekt_4\build\SDL2_gfx\sdl2-subbuild\sdl2-populate-prefix\src\sdl2-populate-stamp\Debug\sdl2-populate-mkdir;C:\Users\Lenovo\tp_projekt_4\build\SDL2_gfx\sdl2-subbuild\sdl2-populate-prefix\src\sdl2-populate-stamp\Debug\sdl2-populate-download;C:\Users\Lenovo\tp_projekt_4\build\SDL2_gfx\sdl2-subbuild\sdl2-populate-prefix\src\sdl2-populate-stamp\Debug\sdl2-populate-update;C:\Users\Lenovo\tp_projekt_4\build\SDL2_gfx\sdl2-subbuild\sdl2-populate-prefix\src\sdl2-populate-stamp\Debug\sdl2-populate-patch;C:\Users\Lenovo\tp_projekt_4\build\SDL2_gfx\sdl2-subbuild\sdl2-populate-prefix\src\sdl2-populate-stamp\Debug\sdl2-populate-configure;C:\Users\Lenovo\tp_projekt_4\build\SDL2_gfx\sdl2-subbuild\sdl2-populate-prefix\src\sdl2-populate-stamp\Debug\sdl2-populate-build;C:\Users\Lenovo\tp_projekt_4\build\SDL2_gfx\sdl2-subbuild\sdl2-populate-prefix\src\sdl2-populate-stamp\Debug\sdl2-populate-test;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Lenovo\tp_projekt_4\build\SDL2_gfx\sdl2-subbuild\CMakeFiles\Debug\sdl2-populate-complete</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Lenovo\Documents\GitHub\TP4\build\SDL2_gfx\sdl2-subbuild\sdl2-populate-prefix\src\sdl2-populate-stamp\Debug\sdl2-populate-install;C:\Users\Lenovo\Documents\GitHub\TP4\build\SDL2_gfx\sdl2-subbuild\sdl2-populate-prefix\src\sdl2-populate-stamp\Debug\sdl2-populate-mkdir;C:\Users\Lenovo\Documents\GitHub\TP4\build\SDL2_gfx\sdl2-subbuild\sdl2-populate-prefix\src\sdl2-populate-stamp\Debug\sdl2-populate-download;C:\Users\Lenovo\Documents\GitHub\TP4\build\SDL2_gfx\sdl2-subbuild\sdl2-populate-prefix\src\sdl2-populate-stamp\Debug\sdl2-populate-update;C:\Users\Lenovo\Documents\GitHub\TP4\build\SDL2_gfx\sdl2-subbuild\sdl2-populate-prefix\src\sdl2-populate-stamp\Debug\sdl2-populate-patch;C:\Users\Lenovo\Documents\GitHub\TP4\build\SDL2_gfx\sdl2-subbuild\sdl2-populate-prefix\src\sdl2-populate-stamp\Debug\sdl2-populate-configure;C:\Users\Lenovo\Documents\GitHub\TP4\build\SDL2_gfx\sdl2-subbuild\sdl2-populate-prefix\src\sdl2-populate-stamp\Debug\sdl2-populate-build;C:\Users\Lenovo\Documents\GitHub\TP4\build\SDL2_gfx\sdl2-subbuild\sdl2-populate-prefix\src\sdl2-populate-stamp\Debug\sdl2-populate-test;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Lenovo\Documents\GitHub\TP4\build\SDL2_gfx\sdl2-subbuild\CMakeFiles\Debug\sdl2-populate-complete</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\Lenovo\tp_projekt_4\build\SDL2_gfx\sdl2-subbuild\CMakeFiles\93649135698a55711ae49903a80a18ba\sdl2-populate.rule">
+    <CustomBuild Include="C:\Users\Lenovo\Documents\GitHub\TP4\build\SDL2_gfx\sdl2-subbuild\CMakeFiles\c70ca1345f5858340a95c81ca516c6fc\sdl2-populate.rule">
       <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</BuildInParallel>
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'"></Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
@@ -258,18 +258,18 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Lenovo\tp_projekt_4\build\SDL2_gfx\sdl2-subbuild\CMakeFiles\Debug\sdl2-populate-complete;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Lenovo\tp_projekt_4\build\SDL2_gfx\sdl2-subbuild\CMakeFiles\sdl2-populate</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Lenovo\Documents\GitHub\TP4\build\SDL2_gfx\sdl2-subbuild\CMakeFiles\Debug\sdl2-populate-complete;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Lenovo\Documents\GitHub\TP4\build\SDL2_gfx\sdl2-subbuild\CMakeFiles\sdl2-populate</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
       <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</VerifyInputsAndOutputsExist>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\Lenovo\tp_projekt_4\build\SDL2_gfx\sdl2-subbuild\CMakeLists.txt">
+    <CustomBuild Include="C:\Users\Lenovo\Documents\GitHub\TP4\build\SDL2_gfx\sdl2-subbuild\CMakeLists.txt">
       <UseUtf8Encoding>Always</UseUtf8Encoding>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/Lenovo/tp_projekt_4/build/SDL2_gfx/sdl2-subbuild/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/Lenovo/Documents/GitHub/TP4/build/SDL2_gfx/sdl2-subbuild/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Lenovo/tp_projekt_4/build/SDL2_gfx/sdl2-subbuild -BC:/Users/Lenovo/tp_projekt_4/build/SDL2_gfx/sdl2-subbuild --check-stamp-file C:/Users/Lenovo/tp_projekt_4/build/SDL2_gfx/sdl2-subbuild/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Lenovo/Documents/GitHub/TP4/build/SDL2_gfx/sdl2-subbuild -BC:/Users/Lenovo/Documents/GitHub/TP4/build/SDL2_gfx/sdl2-subbuild --check-stamp-file C:/Users/Lenovo/Documents/GitHub/TP4/build/SDL2_gfx/sdl2-subbuild/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -277,18 +277,18 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeDetermineSystem.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeSystem.cmake.in;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\ExternalProject.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\ExternalProject\PatchInfo.txt.in;C:\Program Files\CMake\share\cmake-3.29\Modules\ExternalProject\RepositoryInfo.txt.in;C:\Program Files\CMake\share\cmake-3.29\Modules\ExternalProject\UpdateInfo.txt.in;C:\Program Files\CMake\share\cmake-3.29\Modules\ExternalProject\cfgcmd.txt.in;C:\Program Files\CMake\share\cmake-3.29\Modules\ExternalProject\download.cmake.in;C:\Program Files\CMake\share\cmake-3.29\Modules\ExternalProject\extractfile.cmake.in;C:\Program Files\CMake\share\cmake-3.29\Modules\ExternalProject\mkdirs.cmake.in;C:\Program Files\CMake\share\cmake-3.29\Modules\ExternalProject\shared_internal_commands.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Platform\WindowsPaths.cmake;C:\Users\Lenovo\tp_projekt_4\build\SDL2_gfx\sdl2-subbuild\CMakeFiles\3.29.3\CMakeSystem.cmake;C:\Users\Lenovo\tp_projekt_4\build\SDL2_gfx\sdl2-subbuild\sdl2-populate-prefix\tmp\sdl2-populate-mkdirs.cmake;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Lenovo\tp_projekt_4\build\SDL2_gfx\sdl2-subbuild\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeDetermineSystem.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeSystem.cmake.in;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\ExternalProject.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\ExternalProject\PatchInfo.txt.in;C:\Program Files\CMake\share\cmake-3.29\Modules\ExternalProject\RepositoryInfo.txt.in;C:\Program Files\CMake\share\cmake-3.29\Modules\ExternalProject\UpdateInfo.txt.in;C:\Program Files\CMake\share\cmake-3.29\Modules\ExternalProject\cfgcmd.txt.in;C:\Program Files\CMake\share\cmake-3.29\Modules\ExternalProject\download.cmake.in;C:\Program Files\CMake\share\cmake-3.29\Modules\ExternalProject\extractfile.cmake.in;C:\Program Files\CMake\share\cmake-3.29\Modules\ExternalProject\mkdirs.cmake.in;C:\Program Files\CMake\share\cmake-3.29\Modules\ExternalProject\shared_internal_commands.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Platform\WindowsPaths.cmake;C:\Users\Lenovo\Documents\GitHub\TP4\build\SDL2_gfx\sdl2-subbuild\CMakeFiles\3.29.3\CMakeSystem.cmake;C:\Users\Lenovo\Documents\GitHub\TP4\build\SDL2_gfx\sdl2-subbuild\sdl2-populate-prefix\tmp\sdl2-populate-mkdirs.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Lenovo\Documents\GitHub\TP4\build\SDL2_gfx\sdl2-subbuild\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <None Include="C:\Users\Lenovo\tp_projekt_4\build\SDL2_gfx\sdl2-subbuild\CMakeFiles\sdl2-populate">
+    <None Include="C:\Users\Lenovo\Documents\GitHub\TP4\build\SDL2_gfx\sdl2-subbuild\CMakeFiles\sdl2-populate">
     </None>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="C:\Users\Lenovo\tp_projekt_4\build\SDL2_gfx\sdl2-subbuild\ZERO_CHECK.vcxproj">
-      <Project>{A72CAD60-9D2A-3D30-B8EB-083446CECAF5}</Project>
+    <ProjectReference Include="C:\Users\Lenovo\Documents\GitHub\TP4\build\SDL2_gfx\sdl2-subbuild\ZERO_CHECK.vcxproj">
+      <Project>{0ECEAE1A-856F-3DF6-8200-03D93CF27CD1}</Project>
       <Name>ZERO_CHECK</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>

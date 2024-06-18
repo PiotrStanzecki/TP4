@@ -1,17 +1,17 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <CustomBuild Include="C:\Users\Lenovo\tp_projekt_4\build\CMakeFiles\8d8a9ee05e8006db08a9bcd587953e68\uninstall.rule">
+    <CustomBuild Include="C:\Users\Lenovo\Documents\GitHub\TP4\build\CMakeFiles\c1c0e8cdcfd8da808268ef052d4a580b\uninstall.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="C:\Users\Lenovo\tp_projekt_4\SDL\CMakeLists.txt" />
+    <CustomBuild Include="C:\Users\Lenovo\Documents\GitHub\TP4\SDL\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="C:\Users\Lenovo\tp_projekt_4\build\SDL\CMakeFiles\uninstall" />
+    <None Include="C:\Users\Lenovo\Documents\GitHub\TP4\build\SDL\CMakeFiles\uninstall" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="CMake Rules">
-      <UniqueIdentifier>{8D56D8AF-C386-3A08-898B-9A18F2D98E16}</UniqueIdentifier>
+      <UniqueIdentifier>{C187BCF0-7336-3879-91BA-FB8C13A574A5}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

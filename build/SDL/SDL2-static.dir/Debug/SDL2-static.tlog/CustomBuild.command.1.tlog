@@ -1,6 +1,6 @@
-^C:\USERS\LENOVO\TP_PROJEKT_4\SDL\CMAKELISTS.TXT
+^C:\USERS\LENOVO\DOCUMENTS\GITHUB\TP4\SDL\CMAKELISTS.TXT
 setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Lenovo/tp_projekt_4 -BC:/Users/Lenovo/tp_projekt_4/build --check-stamp-file C:/Users/Lenovo/tp_projekt_4/build/SDL/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Lenovo/Documents/GitHub/TP4 -BC:/Users/Lenovo/Documents/GitHub/TP4/build --check-stamp-file C:/Users/Lenovo/Documents/GitHub/TP4/build/SDL/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
