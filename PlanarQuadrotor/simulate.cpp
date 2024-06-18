@@ -147,11 +147,6 @@ int main(int argc, char* args[])
             SDL_SetRenderDrawColor(gRenderer.get(), 0xFF, 0xFF, 0xFF, 0xFF);
             SDL_RenderClear(gRenderer.get());
 
-            /* Quadrotor rendering step */
-            quadrotor_visualizer.render(gRenderer);
-
-            SDL_RenderPresent(gRenderer.get());
-
             /* Simulate quadrotor forward in time */
             control(quadrotor, K);
             quadrotor.Update(dt);
@@ -172,6 +167,36 @@ int main(int argc, char* args[])
             if (theta_history.size() > 1000) {
                 theta_history.erase(theta_history.begin());
             }
+
+            // Quadrotor rendering step
+            quadrotor_visualizer.render(gRenderer);
+
+            // Get the current state
+            state = quadrotor.GetState();
+            float cx = state(0); // Center x
+            float cy = state(1); // Center y
+            float theta = state(2); // Angle theta
+
+            // Define the length of the line (adjust as needed)
+            float line_length = 100.0f;
+
+            // Calculate the endpoints of the line
+            float x1 = cx - 0.5f * line_length * cos(theta);
+            float y1 = cy - 0.5f * line_length * sin(theta);
+            float x2 = cx + 0.5f * line_length * cos(theta);
+            float y2 = cy + 0.5f * line_length * sin(theta);
+
+            // Convert world coordinates to screen coordinates
+            int screen_x1 = static_cast<int>(x1 * 10); // Scale factor to fit within screen
+            int screen_y1 = static_cast<int>(y1 * 10);
+            int screen_x2 = static_cast<int>(x2 * 10);
+            int screen_y2 = static_cast<int>(y2 * 10);
+
+            // Draw the line
+            SDL_SetRenderDrawColor(gRenderer.get(), 0x00, 0x00, 0x00, 0xFF); // Black color
+            SDL_RenderDrawLine(gRenderer.get(), x1, y1, x2, y2);
+
+            SDL_RenderPresent(gRenderer.get());
         }
     }
     SDL_Quit();
